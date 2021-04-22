@@ -357,21 +357,47 @@
 			<div class="btn_close"><a href="#none"><i class='bx bx-x' ></i></a></div>
 		</div>
 	</div>
+
+	<script id="portfolioItem" type="text/template">
+	    <div class="item">
+			<div class="cover">
+				<div class="project_img">
+					<img src="{img}" alt="{project} 시안이미지" />
+				</div>
+				<div class="project_text">
+					<div class="category">
+						<span>{date}</span>
+						<span>{type}</span>
+					</div>
+					<h2>{project}</h2>
+				</div>
+			</div>
+		</div>
+	</script>
+
 	<script type="text/javascript">
 		
 		$(document).ready(function(){
 				
 			$.ajax({
-
 				url:"js/portfilo.json",
-            	type: 'POST',
+            	type: 'GET',
             	dataType: 'json',
+			}).done(function(json){
 
-            	success:function(json){
-            		console.log(json)
-            	}
+				var html = "";
 
-			})
+				$.each(json, function(idx, row) {
+					
+					html = $("#portfolioItem").html()
+					.replace(/{img}/gi, row.img[0])
+					.replace(/{project}/gi, row.project)
+					.replace(/{date}/gi, row.date)
+					.replace(/{type}/gi, row.type);
+
+					$(".project_content").append(html);
+				});
+        	})
 
 			imgHright();
 		});
