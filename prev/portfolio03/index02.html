@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<title>산림청</title>
+<link rel="stylesheet" href="index.css" />
+<script src="html5.js"></script>
+<script src="jquery-1.11.1.min.js"></script>
+<meta charset="utf-8">
+<script>
+//사이드퀵메뉴
+	$(function(){
+		var smallmenu=$(".quickmenu");
+		var smallmenu_top=20;
+		smallmenu.css("top",$(window).height());
+			$(function(){
+				smallmenu.animate(
+				{"top":$(document).scrollTop()+smallmenu_top+"px"},500);
+				$(window).scroll(function(){
+					smallmenu.stop();
+					smallmenu.animate(
+					{"top":$(document).scrollTop()+smallmenu_top+"px"},500);
+				});
+			});
+	});
+</script>
+</head>
+
+<body>
+<div id="wrap">
+	<div id="header">
+		<div class="header_cover">
+			<div class="header_top center">
+				<div class="f_left">
+					<ul>
+						<li><a href="index.html" class="btn_home"><img src="images/btn_home.gif" width="13" height="14"  alt="홈으로" /></a></li>
+						<li><a href="#">즐겨찾기추가</a></li>
+					</ul>
+				</div>
+				<div class="f_right">
+					<ul>
+						<li><a href="#"></a></li>
+						<li><a href="#">사이트맵</a></li>
+						<li>｜</li>
+						<li><a href="#">정책고객가입</a></li>
+						<li>｜</li>
+						<li><a href="#">English</a></li>
+						<li><a href="#" class="btn_login">로그인</a></li>
+						<li><a href="#" class="btn_join">회원가입</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="header_bottom">
+			<div class="headerSearchDiv center">
+				<div class="headerSearch">
+					<input type="text" name="search_top" class="headerSearch_text">
+					<input type="submit" value="검색" class="headerSearch_submit">
+				</div>
+			</div>
+			<div class="center">
+				<a href="index.html" class="f_left"><img src="images/img_logo.png" width="173" height="44" alt="산림청로고" /></a>
+				<div class="nav">
+					<ul>
+						<li><a href="#">휴양ㆍ문화 (숲에 on)</a></li>
+						<li><a href="#">분야별 산림정보</a></li>
+						<li><a href="#">행정ㆍ정책</a></li>
+						<li><a href="#" class="nav_click">민원ㆍ참여</a></li>
+						<li><a href="#">산림청소개</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="sub_banner">
+	</div>
+	<!-- header end-->
+
+	<div class="content_box">
+		<div id="sub_content">
+			<!-- sub_menuBox start-->
+			<div class="sub_menuBox">
+				<a href="#"><img src="images/btn_sub_suggestion.gif" width="190" height="297" border="0" alt="국민행복제안" class="f_left" /></a>
+				<a href="#"><img src="images/btn_sub_civilData.gif" width="190" height="127" border="0" alt="민원자료실" class="f_left" /></a>
+				<a href="#"><img src="images/btn_sub_compliment.gif" width="190" height="127" border="0" alt="칭찬합시다" class="f_left" /></a>
+				<div class="btn_sub_civilComplaint">
+					<div class="btn_sub_civilComplaint_imglist">
+						<a href="#"><img src="images/btn_sub_civilComplaint_01.gif" width="111" height="23" border="0" alt="110수화통화서비스"></a>
+						<a href="#"><img src="images/btn_sub_civilComplaint_02.gif" width="111" height="23" border="0" alt="전자민원"></a>
+						<a href="#"><img src="images/btn_sub_civilComplaint_03.gif" width="111" height="23" border="0" alt="서면민원"></a>
+						<a href="#"><img src="images/btn_sub_civilComplaint_04.gif" width="111" height="23" border="0" alt="방문민원"></a>
+						<a href="#"><img src="images/btn_sub_civilComplaint_05.gif" width="111" height="23" border="0" alt="전화상담"></a>
+						<a href="#"><img src="images/btn_sub_civilComplaint_06.gif" width="111" height="23" border="0" alt="나의민원조회"></a>
+					</div>
+				</div>
+				<a href="#"><img src="images/btn_sub_participation.gif" width="191" height="297" border="0" alt="행정정책참여" class="f_left" /></a>
+				<a href="#"><img src="images/btn_sub_Q&A.gif" width="190" height="297" border="0" alt="자주하는질문" class="f_left" /></a>
+				<a href="#"><img src="images/btn_sub_board.gif" width="190" height="297" border="0" alt="자유게시판" class="f_left" /></a>
+			</div>
+			<!-- sub_menuText start-->
+			<div class="sub_menuText">
+				<div class="cleanAdmin">
+					<div class="sub_menuText_title">
+						<h2>클린행정</h2>
+						<p>산림청은 공정하고 투명한 업무운영을 위하여 <br >정보의 공유 및 신고제도를 운영하고 있습니다.</p>
+					</div>
+					<div class="sub_menuText_content">
+						<div class="cleanAdmin_public">
+							<div class="sub_menuText_contentTitle">
+								<span class="color">공직</span><span>윤리</span>
+							</div>
+							<p>공직자의 재산공개, 퇴직공직자의 취업제한, 선물신고 제도 및 공직기강확림 및 부패방지 업무소개</p>
+							<div class="sub_menuText_more">
+								<a href="#">공직윤리 바로가기</a>
+								<img src="images/btn_moreGreen.gif" width="4" height="5" border="0" alt="더보기">
+							</div>
+						</div>
+						<div class="cleanAdmin_upright">
+							<div class="sub_menuText_contentTitle">
+								<span class="color">청렴</span><span>나눔방</span>
+							</div>
+							<p>산림청 및 소속기관의 청렴관련 정보 및 업무추진비 집행내역 정보를 제공</p>
+							<div class="sub_menuText_more">
+								<a href="#">청렴나눔방 바로가기</a>
+								<img src="images/btn_moreGreen.gif" width="4" height="5" border="0" alt="더보기">
+							</div>
+						</div>
+						<div class="cleanAdmin_audit">
+							<div class="sub_menuText_contentTitle">
+								<span class="color">감사</span><span>정보</span>
+							</div>
+							<p class="cleanAdmin_audit_bg">산림청 소속기관 및 단체의 검사 결과,<br />주요정책정보 안내, 자주 문의하는 <br />정보에 대한 정보를 제공</p>
+							<div class="sub_menuText_more">
+								<a href="#">감사결과 바로가기</a>
+								<img src="images/btn_moreGreen.gif" width="4" height="5" border="0" alt="더보기">
+								<a href="#">감사뉴스레터</a>
+								<img src="images/btn_moreGreen.gif" width="4" height="5" border="0" alt="더보기">
+								<a href="#">감사 FAQ</a>
+								<img src="images/btn_moreGreen.gif" width="4" height="5" border="0" alt="더보기">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="photo">
+					<div class="sub_menuText_title">
+						<h2>산림포토</h2>
+						<p>국민여러분이 올려주신 <br >일상사진 및 아름다운 자연풍경 사진입니다.</p>
+					</div>
+					<div class="photoList">
+						<a href="#"><img src="images/img_photoList01.gif" width="108" height="93" border="0" alt="2014년 제4회"></a>
+						<a href="#"><img src="images/img_photoList02.gif" width="108" height="93" border="0" alt="하얀민들레군"></a>
+						<a href="#"><img src="images/img_photoList03.gif" width="108" height="93" border="0" alt="할미꽃 군락지" class="last_list"></a>
+					</div>
+				</div>
+			</div>
+			<!-- quickMenu start-->
+			<div class="quickmenu">
+				<img src="images/img_quickmenu.gif" width="72" height="34" border="0" alt="퀵메뉴">
+				<a href="index.html"><img src="images/btn_quickmenu01.gif" width="72" height="30" border="0" alt="홈으로"></a>
+				<a href="#"><img src="images/btn_quickmenu02.gif" width="72" height="30" border="0" alt="숲에on"></a>
+				<a href="#"><img src="images/btn_quickmenu03.gif" width="72" height="30" border="0" alt="민원서비스"></a>
+				<a href="#"><img src="images/btn_quickmenu04.gif" width="72" height="30" border="0" alt="채용공고"></a>
+			</div>
+		</div>
+	</div>
+	<!-- content end-->
+
+
+	<div id="footer">
+		<div class="footer_top">
+			<div class="center">
+				<ul>
+					<li><a href="#">사이트이용방법</a></li>
+					<li>｜</li>
+					<li><a href="#">이용약관</a></li>
+					<li>｜</li>
+					<li><a href="#">개인정보처리방침</a></li>
+					<li>｜</li>
+					<li><a href="#">뷰어프로그램</a></li>
+					<li>｜</li>
+					<li><a href="#">찾아오시는길</a></li>
+					<li>｜</li>
+					<li><a href="#">사이트오류신고</a></li>
+				</ul>
+				<select class="footer_select">
+					<option>소속시관바로가기</option>
+					<option>소속시관바로가기</option>
+					<option>소속시관바로가기</option>
+				</select>
+				<select class="footer_select">
+					<option>관련사이트바로가기</option>
+					<option>관련사이트바로가기</option>
+					<option>관련사이트바로가기</option>
+					<option>관련사이트바로가기</option>
+				</select>
+			</div>
+		</div>
+		
+		<div class="footer_bottom">
+			<div class="center">
+				<p class="f_left">
+					[302-701] 대전광역시 서구 청사로 189 1동(산림청)<br />
+					<span>대표전화 : 1588-3249</span> FAX : 042-472-3222E-mail : m-foa@forest.go.kr<br />
+					COPYRIGHT ⓒ 2014산림청. ALL RIGHTS RESERVED.<br />
+				</p>
+				<img src="images/img_footerMark.gif" width="468" height="61" border="0" alt="인증마크" class="f_right" />
+			</div>
+		</div>
+	</div>
+
+</div>
+</body>
+
+</html>

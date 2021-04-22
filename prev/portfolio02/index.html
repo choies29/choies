@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<title>대전광역시상수도사업본부</title>
+<link rel="stylesheet" href="index.css" />
+<script src="html5.js"></script>
+<script src="jquery-1.11.1.min.js"></script>
+<meta charset="utf-8">
+<script>
+	//메인슬라이드
+	alert('"it’s 水 홍보관", "상수도 소개", "사이버고객센터"를 눌러주세요~');
+	$(function(){
+		$('#allpage').css('width',1004*$('#allpage .page').size()+'px');
+		$('#allpage .page:last').prependTo('#allpage');
+		$('#allpage').css('margin-left','-1004px');
+		$('#prev').click(function(){
+			$('#prev,#next').hide();
+			$('#allpage').animate({
+					marginLeft:'+=1004px'},'slow','swing',function(){
+						$('#allpage .page:last').prependTo('#allpage');
+						$('#allpage').css('marginLeft','-1004px');
+						$('#prev,#next').show();
+					});
+			});
+			$('#next').click(function(){
+				$('#prev,#next').hide();
+				$('#allpage').animate({
+					marginLeft:'-=1004px'},'slow','swing',function(){
+						$('#allpage .page:first').appendTo('#allpage');
+						$('#allpage').css('marginLeft','-1004px');
+						$('#prev,#next').show();
+					});
+			});
+		});
+
+	$(function(){
+		setInterval(function(){
+			$('#next').trigger('click');
+		},5000);
+	});
+
+	//탭
+	$(function(){
+		setInterval(function(){
+			$('#next_s').trigger('click');
+		},3000);
+	});
+	$(function(){		
+			$(".tab_content div").hide();
+			$(".tab_content div:first").show();
+				$('#tab_01').click(function(){
+				$('.divTab').css("display","none");
+				$('#divTab1').css("display","block");
+				$('#tab_01').css({"background-color":"#FFF","border-bottom":"#FFF"});
+				$('#tab_02').css({"background-color":"#f7f7f7","border-bottom":"1px solid #e1e1e1"});
+				$('#tab_03').css({"background-color":"#f7f7f7","border-bottom":"1px solid #e1e1e1"});
+				return false;
+			});
+			$('#tab_02').click(function(){
+				$('.divTab').css("display","none");
+				$('#divTab2').css("display","block");
+				$('#tab_01').css({"background-color":"#f7f7f7","border-bottom":"1px solid #e1e1e1"});
+				$('#tab_02').css({"background-color":"#FFF","border-bottom":"#FFF"});
+				$('#tab_03').css({"background-color":"#f7f7f7","border-bottom":"1px solid #e1e1e1"});
+				return false;
+			});
+			$('#tab_03').click(function(){
+				$('.divTab').css("display","none");
+				$('#divTab3').css("display","block");
+				$('#tab_01').css({"background-color":"#f7f7f7","border-bottom":"1px solid #e1e1e1"});
+				$('#tab_02').css({"background-color":"#f7f7f7","border-bottom":"1px solid #e1e1e1"});
+				$('#tab_03').css({"background-color":"#FFF","border-bottom":"#FFF"});
+				return false;
+			});
+		});
+
+	//배너모음
+	$(function(){
+		$('#page_sCover').css('width',120*$('#page_sCover .page_s').size()+'px');
+		$('#page_sCover .page_s:last').prependTo('#page_sCover');
+		$('#page_sCover').css('margin-left','-120px');
+		$('#prev_s').click(function(){
+			$('#page_sCover').animate({
+					marginLeft:'+=120px'},'slow','swing',function(){
+						$('#page_sCover .page_s:last').prependTo('#page_sCover');
+						$('#page_sCover').css('marginLeft','-120px');
+						$('#prev_s,#next_s').show();
+					});
+			});
+			$('#next_s').click(function(){
+				$('#page_sCover').animate({
+					marginLeft:'-=120px'},'slow','swing',function(){
+						$('#page_sCover .page_s:first').appendTo('#page_sCover');
+						$('#page_sCover').css('marginLeft','-120px');
+						$('#prev_s,#next_s').show();
+					});
+			});
+		});
+</script>
+</head>
+
+<body>
+<div id="wrep">
+
+	<div id="header">
+		<div class="logo">
+			<a href="index.html"><img src="images/logo.jpg" /></a>
+		</div>
+
+		<div class="top_menu">
+			<div class="top_menu01">
+				<ul>
+					<li><a href="#">직원검색</a></li>
+					<li>｜</li>
+					<li><a href="#">사업소 바로가기</a></li>
+				</ul>
+			</div>
+			<div class="top_menu02">
+				<div class="top_menu_menu">
+					<ul>
+						<li><a href="index.html">홈</a></li>
+						<li><a href="#">로그인</a></li>
+						<li><a href="#">회원가입</a></li>
+						<li><a href="#">어린이</a></li>
+						<li><a href="#">English</a></li>
+					</ul>
+				</div>
+				<div class="top_search">
+					<input type="tetx" name="text" value="" class="tetx_search" />
+					<input type="submit" name="submit" class="btn_submit" />
+				</div>
+			</div>
+		</div>
+		<div class="nav">
+			<ul>
+				<li><a href="index02.html">it’s 水 홍보관</a></li>
+				<li><a href="#">시민의 소리</a></li>
+				<li><a href="#">상수도 소식</a></li>
+				<li><a href="#">상수도 수질</a></li>
+				<li><a href="index03.html">상수도 소개</a></li>
+				<li><a href="index04.html" target="_blank" class="cyber">사이버고객센터</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<!--content 시작-->
+	<div id="content">
+		<div id="main_banner">
+			<p id="prev"><img src ="images/prev.png" /></p>
+			<p id="next"><img src ="images/next.png" /></p>
+			<div id="main">
+				<div id="allpage">
+					<img class="page" src="images/banner01.jpg" width="1004" height="444" />
+					<img class="page" src="images/banner02.jpg" width="1004" height="444" />
+					<img class="page" src="images/banner01.jpg" width="1004" height="444" />
+					<img class="page" src="images/banner02.jpg" width="1004" height="444" />
+				</div>
+			</div>
+		</div>
+		<div class="top-sliding">
+			<img class="left" src="images/top-in01.png"/>
+			<p class="top-sliding_p" class="mov">현재 단수 지역이 없습니다. 2014년  09월 02일<p>
+			<img class="left cursor" src="images/top-in02.png"/>
+			<img class="left cursor" src="images/top-in03.png"/>
+			<a href="#"><img class="right" src="images/top-in04.png"/></a>
+		</div>
+	</div>
+
+	<!--main_content 시작-->
+	<div id="main_content">
+		<!--퀵메뉴-->
+		<div class="main_content_quickMenu">
+			<img src="images/QS-01.png" class="quickMenu_subject"/><br />
+			<div class="qs">
+				<ul>
+					<li><a href="#"><img class="quickMenu_icon" src="images/QS-02.png"/></a></li>
+					<li><a href="#"><img class="quickMenu_icon" src="images/QS-03.png"/></a></li>
+					<li><a href="#"><img class="quickMenu_icon" src="images/QS-04.png"/></a></li>
+					<li><a href="#"><img class="quickMenu_icon" src="images/QS-05.png"/></a></li>
+					<li><a href="#"><img class="quickMenu_icon" src="images/QS-06.png"/></a></li>
+					<li><a href="#"><img class="quickMenu_icon" src="images/QS-07.png"/></a></li>
+					<li><a href="#"><img class="quickMenu_icon" src="images/QS-08.png"/></a></li>
+					<li><a href="#"><img class="quickMenu_icon" src="images/QS-09.png"/></a></li>
+				</ul>
+			</div>
+		</div>
+		<!--공지사항 탭-->
+		<div id="tab">
+			<div class="tab_menu">
+				<ul>
+					<li class="tab_title" id="tab_01">공지사항</li>
+					<li class="tab_title" id="tab_02">보도자료</li>
+					<li class="tab_title" id="tab_03">입찰정보</li>
+				</ul>
+			</div>
+			<div class="tab_content">
+				<div id="divTab1" class="divTab">
+					<ul>
+						<li><a href ="#">•기간제 근로자 채용 공고</a><p class="tab_menu_day">2014.11.12</p></li>
+						<li><a href ="#">•상수도 물 사랑 체험수기 공모</a><p class="tab_menu_day">2014.11.03</p></li>
+						<li><a href ="#">•대전광역시 상수도사업···</a><p class="tab_menu_day">2014.10.24</p></li>
+						<li><a href ="#">•기간제 근로자 채용 공고</a><p class="tab_menu_day">2014.10.07</p></li>
+						<li><a href ="#">•2014년 정수장개방 안내</a><p class="tab_menu_day">2014.09.24</p></li>
+						<li><a href ="#">•수의계약 공개내역서</a><p class="tab_menu_day">2014.09.05</p></li>
+					</ul>
+				</div>
+				<div id="divTab2" class="divTab">
+					<ul>
+						<li><a href ="#">•상수도사업본부 서부사업소 민원실이전</a><p class="tab_menu_day">2014.11.16</p></li>
+						<li><a href ="#">•노후된 가정급수관 개량, 신청하세요.</a><p class="tab_menu_day">2014.10.02</p></li>
+						<li><a href ="#">•대전시 상수도사업, 균형집행 위해 적···</a><p class="tab_menu_day">2014.10.02</p></li>
+						<li><a href ="#">•수도계량기동파신고는 국번없이 121번으로</a><p class="tab_menu_day">2014.09.31</p></li>
+						<li><a href ="#">•대전시상수도노후관개량은 내시경검사로</a><p class="tab_menu_day">2014.09.25</p></li>
+					</ul>
+				</div>
+				<div id="divTab3" class="divTab">
+					<ul>
+						<li><a href ="#">•서구 관내 저소득픙 옥내급수관 개량공사</a><p class="tab_menu_day">2014.11.10</p></li>
+						<li><a href ="#">•동구 관내 저소득픙 옥내급수관 개량공사</a><p class="tab_menu_day">2014.11.09</p></li>
+						<li><a href ="#">•[대덕사업소]대덕수 저소득층 옥내급수관···</a><p class="tab_menu_day">2014.10.31</p></li>
+						<li><a href ="#">•갑동 327-56번지 외 4개소 無배수관지역···</a><p class="tab_menu_day">2014.10.29</p></li>
+						<li><a href ="#">•갑동 327-56번지 외 4개소 無배수관지역···</a><p class="tab_menu_day">2014.10.29</p></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--팝업존-->
+		<div class="popupZone">
+			<img src="images/pop01.png" class="top-img"/>
+			<div class="popdiv01">
+				<p class="left">popup zone</p>
+				<img src="images/pop04.png" class="right cursor"/>
+				<img src="images/pop03.png" class="right cursor"/>
+			</div>
+			<div class="popdiv02">
+				<a href="#"><img src="images/pop02.png" /></a>
+				<div class="right">
+					<p class="title"><a href="#">겨울철 급수설비 동파 예방</a></p>
+					<p>겨울철 수도관이 얼지 않도록<br />미리 보온조치를 하여 수돗물<br />사용에 불편이 없는 겨울을 보냅시다.</p>
+				</div>
+			</div>
+		</div>
+		<!--수질정보-->
+		<div class="waterQuality">
+			<img src="images/pop05.png" class="top-img"/>
+			<p class="title">매년 상•하반기 청소등 철저한 위생관리를 통한<br />안전하고 깨끗한 물을 생산합니다.</p>
+			<div class="list">
+				<ul>
+					<li><a href="#">송촌 정수장</a></li>
+					<li><a href="#">신탄진 정수장</a></li>
+					<li><a href="#">월평 정수장</a></li>
+				</ul>
+			</div>
+		</div>
+		<!--잇츠수 홍보-->
+		<div class="promote">
+			<img src="images/pop06.png" class="top-img"/>
+			<div>
+				<ul>
+					<li><a href="#" class="itsoo"><img src="images/itso01.png"/></a></li>
+					<li><a href="#" class="itsoo"><img src="images/itso02.png"/></a></li>
+					<li><a href="#" class="itsoo"><img src="images/itso03.png"/></a></li>
+				</ul>
+			</div>
+		</div>
+		<!--민원행정-->
+		<div class="complain">
+			<div class="complain01">
+				<img src="images/pop07.png" class="top-img"/>
+				<p class="title">소중한 의견 하나하나 감사히 받겠습니다.</p>
+				<div class="list">
+					<ul>
+						<li><a href="#">상수도에 바란다</a></li>
+						<li><a href="#">부조리신고</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="complain02">
+			</div>
+		</div>
+		<!--홍보영상-->
+		<div class="video">
+			<div class="video01">
+				<img src="images/pop08.png" class="top-img"/>
+				<p class="left">대전을 건강하게 숨쉬게 하는<br />깨끗한 물 It's水가 함께 합니다.</p>
+			</div>
+			<div class="video02">
+				<a class="right" href="#"><img src="images/pop08_1.png" /></a>
+			</div>
+		</div>
+		<!--품질보고서-->
+		<div class="report">
+			<div class="report01">
+				<img src="images/pop09.png" class="top-img"/>
+				<p class="left title">2014 It’s 水 수돗물 품질보고서</p>
+				<div class="ebook">
+					<img src="images/pop09_2.png" class="right"/>
+					<a href="#"><p class="right">이북바로가기</p></a>
+				</div>
+			</div>
+			<div class="report02">
+				<a class="right"href="#"><img src="images/pop09_1.png" /></a>
+			</div>
+		</div>
+		<!--배너모음-->
+		<div id="banner">
+				<img src="images/pop10.png" class="top-img"/>
+				<div id="banner01">
+					<p id="prev_s"><img src ="images/prev_s.png" /></p>
+					<p id="next_s"><img src ="images/next_s.png" /></p>
+					<div id="main_s">
+						<div id="page_sCover">
+							<a href="#" class="page_s"><img src="images/pop10_1.png"/></a>
+							<a href="#" class="page_s"><img src="images/pop10_2.png"/></a>
+							<a href="#" class="page_s"><img src="images/pop10_3.png"/></a>
+							<a href="#" class="page_s"><img src="images/pop10_4.png"/></a>
+						</div>
+					</div>
+				</div>
+			</div>
+	</div><!--main_content end-->
+</div><!--wrep end-->
+<div id="footer">
+	<div class="cover">
+		<div class="foot01">
+			<ul>
+				<li><a href="#">이용안내</a><li>
+				<li>｜</li>
+				<li><a href="#">개인정보처리방침</a><li>
+				<li>｜</li>
+				<li><a href="#">홈페이지개선의견</a><li>
+				<li>｜</li>
+				<li><a href="#">뷰어다운로드</a><li>
+				<li>｜</li>
+				<li><a href="#">오시는길</a><li>
+				<li>｜</li>
+				<li><a href="#">길전화번호안내</a><li>
+			</ul>
+			<select class="footer_select">
+				<option>대전광역시관련바로가기</option>
+				<option>대전광역시관련바로가기</option>
+				<option>대전광역시관련바로가기</option>
+			</select>
+			<select class="footer_select">
+				<option>상수도관련바로가기</option>
+				<option>상수도관련바로가기</option>
+				<option>상수도관련바로가기</option>
+			</select>
+		</div>
+		<div class="foot02">
+			<img src="images/footer_logo.jpg" />
+			<p>
+				302-808 대전광역시 서구 신갈마로 141번길 80 대표전화 042-715-6114 야간, 휴일당직실이용 042-715-6900<br />
+				Copyright(c) 2014 대전광역시 상수도사업본부. All Rights Reserved.
+			</p>
+		</div>
+	</div>
+</div>
+</body>
+
+</html>
