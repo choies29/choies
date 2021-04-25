@@ -149,7 +149,7 @@ function modalDetail(){
 function modalClose(){
 
 	$('.modal').fadeOut(300);
-	$('.modal').html('');
+	$('.madal_contnet').html('');
 	$('body').css("overflow","overlay");
 }
 
