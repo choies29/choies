@@ -43,7 +43,8 @@
 				</div>
 				<div class="visual">
 					<h1 class="visual_text">Creative</h1>
-					<h3>Hello, I'm Joy<br />I'm a Web Designer & Publisher</h3>
+					<h3>Hello, I'm Joy</h3>
+					<h3>I'm a Web Designer & Publisher</h3>
 					<p>
 						UI/UX <br />Visual design <br />Publishing
 					</p>
@@ -72,36 +73,37 @@
 						<div class="item design">
 							<div>
 								<h2>design</h2>
-								<h3>디자인</h3>
+								<p>디자인</p>
 								<ul>
-									<li>- Visual Web Design</li>
-									<li>- Infographic</li>
+									<li>#UI&GUI</li>
+									<li>#Infographic</li>
 								</ul>
 							</div>
 						</div>
 						<div class="item publishing">
 							<div>
 								<h2>Publishing</h2>
-								<h3>퍼블리싱</h3>
+								<p>퍼블리싱</p>
 								<ul>
-									<li>- Cross browsing</li>
-									<li>- 웹표준, 웹접근성</li>
+									<li>#Markup</li>
+									<li>#ResponsiveWeb</li>
 								</ul>
 							</div>
 						</div>
 						<div class="item planning">
 							<div>
 								<h2>Planning</h2>
-								<h3>기획</h3>
+								<p>기획</p>
 								<ul>
-									<li>- Prototype(adobeXD)</li>
-									<li>- Wireframe</li>
+									<li>#UX</li>
+									<li>#Prototype(adobeXD)</li>
 								</ul>
 							</div>
 						</div>
 					</div>
 
 					<div class="skill">
+						<h1>MY SKILLS</h1>
 						<ul>
 							<li>
 								<i class='bx bxl-adobe psd'></i>
@@ -152,7 +154,14 @@
 				</div>
 
 				<div class="project_content">
-
+					<div id="13" class="item"  onClick="modalDetail(13)">
+						<div class="cover">
+							<div class="project_text">
+								<span class="date">{date}</span>
+								<h2>{project}</h2>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -187,13 +196,27 @@
 
 	<!-- modal -->
 	<div class="modal" id="modal_detail">
+		<div class="modal_header"style="background:url('img/project/item06-1.jpg') no-repeat">
+			<div class="top_txt">
+				<p class="date">2020.02</p>
+				<h2>프로젝트며어어어어엉</h2>
+				<p class="inD"><span>디자인참여도</span>100%</p>
+				<p class="inP"><span>퍼블리싱참여도</span>100%</p>
+				<p class="info">예산황새공원 메인입니다.</p>
+			</div>
+		</div>
+		<div class="content">
+			<img src="img/project/item06-1.jpg">
+			<img src="img/project/item06-2.jpg">
+		</div>
+		<button onClick='modalClose()' class="btn_close"><i class='bx bx-x bx-flip-vertical' ></i></button>
 	</div>
 
 
 
 	<!-- for portfolio item list -->
 	<script id="portfolioItem" type="text/template">
-		<div id="{id}" class="item" style="background:url({img}) no-repeat">
+		<div id="{id}" class="item"  onClick="modalDetail({id})" style="background:url({img}) no-repeat">
 			<div class="cover">
 				<div class="project_text">
 					<span class="date">{date}</span>

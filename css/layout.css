@@ -19,13 +19,6 @@ section{
 	padding-top: 8rem;
 }
 
-@media (max-width: 1400px){
-	/*.col {
-		float: none;
-		width: 100% !important;
-	}*/
-}
-
 .container{
 	position: relative;
 	width: 100%;
@@ -39,58 +32,47 @@ section{
 	height: 100vh;	
 }
 
-.common_title{
-	position: relative;
-	padding: 3rem 1.5rem 6rem;
+.title h1{
+	font-family: 'Poppins';
+	font-size: 4rem;
+	font-weight: 700;
 	text-transform: uppercase;
-	text-align: center;
-	width: fi;
+	margin-bottom: 1rem;
 }
 
-.common_title::before{
-	display: block;
-	position: absolute;
-	width: 1px;
-	height: 4rem;
-	background: #eee;
-	left: 50%;
-	bottom: 0;
-	content: "";
+.info_txt{
+    font-size: 1.12em;
+    font-weight: 300;
+    word-break: keep-all;
+    margin-top: .5rem;
 }
 
-.common_title h3{
-	color: #fdbb07;
-	font-size: 0.8rem;
-	letter-spacing: 2px;
-	border-top: 1px solid #fdbb07;
-	margin: auto;
-	width: fit-content;
-	padding-top: 0.2rem;
+.info_txt div{
+	overflow: hidden;
+	height: 1.6em;
+	padding-top: 2rem;
+	opacity: 0;
+	transition: all .5s ease-out;
 }
 
-.common_title h1{
-	font-size: 2.6rem;
+.info_txt div.active{
+	padding-top: 0;
+	opacity: 1;
+	transition: all .5s ease-out;
+	transition-delay: .25s;
 }
 
-.common_title p{
-	margin-top: 1.5rem;
+.info_txt div.active:nth-child(2){
+  transition-delay: .5s;
 }
 
-/*@media all and ( max-width: 1023px ){
-	section{
-		padding-top: 0;
-	}
-	.col{
-		float: none;
-		width: 100% !important;
-	}
+.info_txt div.active:nth-child(3){
+  transition-delay: .75s;
 }
 
-@media all and ( max-width: 767px ){
-	.full{
-		height: auto;
-	}
-}*/
+.info_txt div.active:nth-child(4){
+  transition-delay: 1s;
+}
 
 
 
@@ -159,31 +141,6 @@ nav li{
 	color:#555;
 }
 
-/*@media all and ( max-width: 1023px ){
-	header{
-		display: none;
-		padding: 1rem 0 1rem;
-		background: rgba(255, 255, 255, 0.95);
-		box-shadow: 0.5rem 1rem 2rem 0 rgba(0,0,0,0.15);
-	}
-	nav .logo a{
-		float:none;
-	}
-	nav ul{
-		float:none;
-	}
-	nav li{
-		display: block;
-	}
-	nav a{
-		width: 100%;
-		text-align: center;
-		font-size: 1.2rem;
-	}
-	.btn_nav{
-		display: block;
-	}
-}*/
 
 
 /* intro
@@ -210,7 +167,7 @@ nav li{
 
 .side_text p b{
 	display: block;
-	margin-bottom: 0.5rem;
+	margin-bottom: .5rem;
 	font-weight: 100;
 }
 
@@ -269,6 +226,10 @@ nav li{
 	animation: showup 6s;
 }
 
+.visual h3:last-child{
+	animation-delay: 1s;
+}
+
 .visual p{
 	margin-left: 1rem;
 	font-family: 'Poppins';
@@ -288,57 +249,6 @@ nav li{
 }
 
 
-.title h1{
-	font-family: 'Poppins';
-	font-size: 4rem;
-	font-weight: 700;
-	text-transform: uppercase;
-	margin-bottom: 1rem;
-}
-
-.info_txt{
-    font-size: 1.2em;
-    font-weight: 300;
-    word-break: keep-all;
-    margin-top: 0.5rem;
-}
-
-.info_txt div{
-	height: 1.6em;
-}
-
-/*@media all and ( max-width: 1023px ){
-	.side_text{
-		display: none;
-	}
-}
-
-@media all and ( max-width: 767px ){
-	.visual_text{
-		font-size: 7rem;
-	}
-}
-
-@media all and ( max-width: 600px ){
-	.visual_text{
-		font-size: 5rem;
-	}
-	.visual h3{
-		font-size: 2.5rem;
-	}
-}
-
-@media all and ( max-width: 500px ){
-	.visual_text{
-		font-size: 4rem;
-	}
-	.visual h3{
-		font-size: 2.5rem;
-	}
-}*/
-
-
-
 /* about
 -------------------------------------------------------------------- */
 #about{
@@ -347,63 +257,80 @@ nav li{
 	background: #f7f7f7;
 }
 
-.skill{
-	overflow: hidden;
-}
-
-.skill li{
-	float: left;
-	width: 50%;
-}
-
-.skill li i{
-	display: inline-block;
-	font-size: 1.2rem;
-	opacity: 0.4;
-	line-height: 2rem;
-	vertical-align: middle;
-}
-
-.skill li h2{font-family: 'Poppins';font-weight: 300;font-size: 1rem;display: inline-block;color: #7b7b7b;line-height: 2rem;vertical-align: middle;}
-
-.skill li p{
-	padding-bottom: 3rem;
-	line-height: 1.5;
-	word-break: break-all;
-}
-
 .able{
 	overflow: hidden;
 	margin-bottom: 3rem;
-	padding: 4rem 0;
-	top: -9rem;
+	padding: 2rem 0 6rem;
 	right: 0;
-	animation: fadeIn 6s;
 	border-bottom: 1px solid #efefef;
 }
 
 .able .item{
+	overflow: hidden;
 	float: left;
 	width: 33.33333333%;
 	padding-right: 1rem;
 }
 
 .able .item div{
-	padding: 4rem 3rem 2.5rem;
+	position: relative;
+	padding: 3rem 2.5rem 2.5rem;
 	color: #fff;
-	height: 100%;
-	border-radius: 0.25rem;
+	border-radius: .25rem;
+	transform: translateY(5rem);
+	transition: all .5s ease-out;
+}
+
+.able .item.active div{
+	transform: translateY(0);
+	transition: all .5s ease-out;
+	transition-delay: 1s;
+}
+
+.able .item.active:nth-child(2) div{
+  transition-delay: 1.25s;
+}
+
+.able .item.active:nth-child(3) div{
+  transition-delay: 1.5s;
 }
 
 .able .item h2{
 	font-family: 'Poppins';
-	font-size: 2.5rem;
+	font-size: 2rem;
 	font-weight: 500;
+	opacity: 1;
+	transition: all .5s ease-out;
 }
 
-.able .item h3{
-	margin: 0.5rem 0 3rem;
-	font-size: 1.2rem;
+.able .item p{
+	font-weight: 100;
+	opacity: 1;
+	transition: all .5s ease-out;
+}
+
+.able .item ul{
+	position: absolute;
+	top: 100%;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 3rem 2.5rem 0;
+	background: rgba(0, 0, 0, 0.6);
+	opacity: 0;
+	transition: all .5s ease-out;
+}
+
+.able .item:hover h2, 
+.able .item:hover p{
+	opacity: 0;
+	transition: all .5s ease-out;
+}
+
+.able .item:hover ul{
+	top : 0;
+	opacity: 1;
+	transition: all .5s ease-out;
 }
 
 .able .item li{
@@ -426,6 +353,61 @@ nav li{
 	background-size: 250%;
 }
 
+
+.skill{
+	overflow: hidden;
+}
+
+.skill h1{
+	font-size: 2.2rem;
+	font-family: 'Poppins';
+	font-weight: 700;
+	margin-bottom: 3rem;
+}
+
+.skill li{
+	float: left;
+	width: 50%;
+}
+
+.skill li i{
+	display: none;
+	font-size: 1.2rem;
+	opacity: 0.4;
+	line-height: 2rem;
+	vertical-align: middle;
+}
+.skill li h2,
+.skill li p{
+	display: block;
+	overflow: hidden;
+	transition: all .5s ease-out;
+
+}
+
+.skill li h2{
+	height: 2rem;
+	padding-top: 2rem;
+	font-family: 'Poppins';
+	font-weight: 500;
+	font-size: 1.3rem;
+	vertical-align: middle;
+}
+
+.skill li p{
+	height: 1.5rem;
+	padding-top: 1.5rem;
+	margin: 0.3rem 0 2.5rem;
+	line-height: 1.5;
+	word-break: break-all;
+}
+
+.skill li.active h2,
+.skill li.active p{
+	padding-top: 0rem;
+	transition: all .5s ease-out;
+	transition-delay: .3s;
+}
 
 
 /* project
@@ -461,7 +443,7 @@ nav li{
 	overflow: hidden;
 	transition: all .4s ease-out;
 	cursor: pointer;
-	border-radius: 0.25rem;
+	border-radius: .25rem;
 }
 
 .project_content .item:hover .cover{
@@ -518,7 +500,7 @@ nav li{
 	display: block;
 	overflow: hidden;
 	height: 1.5rem;
-	margin-top: 0.5rem;
+	margin-top: .5rem;
 	padding-top: 1.5rem;
 	font-size: 1.3rem;
 	color: #fff;
@@ -538,41 +520,6 @@ nav li{
     transition: all .4s ease-out;
 }
 
-/*@media all and ( max-width: 1023px ){
-	.project_content .item.col{
-		padding: 1.5rem;
-	}
-	.col .project_img{
-		float: left;
-		width: 45%;
-	}
-	.col .project_text{
-		float: left;
-		width: 55%;
-		padding: 0.5rem 0 0 3rem;
-	}
-	.elead{
-		background-size: 100%;
-	}
-
-}
-
-
-@media all and ( max-width: 767px ){
-	.col .project_img{
-		float: none;
-		width: 100%;
-		height: 35vh !important;
-	}
-	.col .project_text{
-		float: none;
-		width: 100%;
-		padding: 1rem 0;
-	}
-
-}*/
-
-
 
 /* career
 -------------------------------------------------------------------- */
@@ -586,7 +533,7 @@ section#contact{
 }
 
 .btn_content .btn{
-	margin-right:0.5rem;
+	margin-right:.5rem;
 }
 
 .btn_content .btn i{
@@ -607,7 +554,7 @@ section#contact{
 }
 
 #career .common_title p:last-child{
-	margin-top:0.5rem;
+	margin-top:.5rem;
 }
 
 .career{
@@ -625,7 +572,7 @@ section#contact{
 }
 
 .career.f_right ul li{
-	margin-bottom: 0.5rem;
+	margin-bottom: .5rem;
 	color:#888;
 }
 
@@ -638,7 +585,7 @@ section#contact{
 	display: block;
 	font-size: 0.8rem;
 	font-weight: 300;
-	padding: 1.2rem 0 0.2rem 0;
+	padding: 1.2rem 0 .2rem 0;
 	color: #9f9f9f;
 }
 
@@ -665,93 +612,215 @@ footer{
 .modal{
 	display: none;
 	position: fixed;
+	overflow: auto;
 	top: 0;
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: rgba( 0,0,0,0.6);
+	padding: 5rem;
+	background: #fff;
 	z-index: 99999;
 }
 
-.width_full{
+.modal_header{
+	position: relative;
+	height: 30rem;
+	color: #fff;
+	background-size: cover !important;
+}
+
+.modal_header:after{
+	content: "";
+	display: block;
 	position: absolute;
-	min-width: 1000px;
-	top: 5rem;
-	left: 15rem;
-	right: 15rem;
-	bottom: 5rem;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.7);
+}
+
+.top_txt{
+	position: absolute;
+	z-index: 9999;
+	left: 5rem;
+	top: 25%;
+}
+
+.modal_header p.date{
+    font-weight: 300;
+    font-family: 'Poppins';
+    opacity: .7;
+}
+
+.modal_header h2{
+	font-size: 3rem;
+	font-weight: 700;
+	margin-bottom: 3rem;
+}
+
+.modal_header p.inD,
+.modal_header p.inP{
+    
+line-height: 1.7rem;
+    
+font-family: 'Poppins';
+}
+
+.modal_header p.inD span,
+.modal_header p.inP span{display: inline-block;width: 130px;font-family: 'Noto Sans KR';}
+
+
+.modal_header p.info{
+	position: relative;
+	margin-top: 2rem;
+	padding-left: 10px;
+}
+
+.modal_header p.info::before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 1px;
 	background: #fff;
-	padding: 5rem 1.5rem 2rem 1.5rem;
+}
+    
+
+.content{
+
+padding-top: 5rem;
 }
 
-.width_full .modal_img{
-	height: 100%;
+.content img{
 	width: 100%;
-	overflow: auto;
-}
-
-.width_full .modal_img span{
-	display: none;
-}
-
-.width_full .modal_img h1{
-	padding-bottom: 2rem;
-	border-bottom: 1px solid #eee;
-	margin-bottom:2rem;
-	font-size: 1.5rem;
-}
-
-.width_full .modal_img img{
-	width: 100%;
+	margin-top: 5rem;
+	box-shadow: 20px 20px 70px #ddd;
 }
 
 .modal .btn_close{
-	position: absolute;
-	top: 1.5rem;
-	right: 1.5rem;
+	position: fixed;
+	top: 0;
+	right: 0;
 	font-size: 2.5rem;
 	color: #aaa;
 }
 
-.btn_modal img,
-.btn_modal h1{
-	display: none;
+@media (max-width: 1400px){
+	/*.col {
+		float: none;
+		width: 100% !important;
+	}*/
+}
+
+@media all and ( max-width: 1023px ){
+	.side_text{
+		display: none;
+	}
+}
+
+@media all and ( max-width: 767px ){
+	.visual_text{
+		font-size: 7rem;
+	}
+}
+
+@media all and ( max-width: 600px ){
+	.visual_text{
+		font-size: 5rem;
+	}
+	.visual h3{
+		font-size: 2.5rem;
+	}
+}
+
+@media all and ( max-width: 500px ){
+	.visual_text{
+		font-size: 4rem;
+	}
+	.visual h3{
+		font-size: 2.5rem;
+	}
 }
 
 
-
-
-
-/*ìš”ê¸°*/
-.item_ul li .img_motion{
-  overflow: hidden;
+/*@media all and ( max-width: 1023px ){
+	section{
+		padding-top: 0;
+	}
+	.col{
+		float: none;
+		width: 100% !important;
+	}
 }
 
-.item_ul li .img_motion img {
-  display: block;
-  width: 100%;
-  padding-top: 50%;
-  transform: scale(1);
-  transition: all .4s ease-out;
+@media all and ( max-width: 767px ){
+	.full{
+		height: auto;
+	}
+}*/
+
+/*@media all and ( max-width: 1023px ){
+	header{
+		display: none;
+		padding: 1rem 0 1rem;
+		background: rgba(255, 255, 255, 0.95);
+		box-shadow: .5rem 1rem 2rem 0 rgba(0,0,0,0.15);
+	}
+	nav .logo a{
+		float:none;
+	}
+	nav ul{
+		float:none;
+	}
+	nav li{
+		display: block;
+	}
+	nav a{
+		width: 100%;
+		text-align: center;
+		font-size: 1.2rem;
+	}
+	.btn_nav{
+		display: block;
+	}
+}*/
+
+
+/*@media all and ( max-width: 1023px ){
+	.project_content .item.col{
+		padding: 1.5rem;
+	}
+	.col .project_img{
+		float: left;
+		width: 45%;
+	}
+	.col .project_text{
+		float: left;
+		width: 55%;
+		padding: .5rem 0 0 3rem;
+	}
+	.elead{
+		background-size: 100%;
+	}
+
 }
 
-.item_ul li .img_motion.active img {
-  padding-top: 0;
-  transition: all .6s ease-out;
-}
 
-.item_ul li:nth-child(3n-1) .img_motion.active img {
-  transition-delay: .4s;
-}
+@media all and ( max-width: 767px ){
+	.col .project_img{
+		float: none;
+		width: 100%;
+		height: 35vh !important;
+	}
+	.col .project_text{
+		float: none;
+		width: 100%;
+		padding: 1rem 0;
+	}
 
-.item_ul li:nth-child(3n) .img_motion.active img {
-  transition-delay: .8s;
-}
-
-.item_ul li:hover .img_motion.active img {
-  transform: scale(1.10);
-}
-
+}*/
 
 
 
