@@ -5,9 +5,11 @@
 $(document).ready(function(){
 				
 	$.ajax({
+
 		url:"js/portfilo.json",
     	type: 'GET',
     	dataType: 'json',
+
 	}).done(function(json){
 
 		var html = "";
@@ -23,7 +25,6 @@ $(document).ready(function(){
 			$(".project_content").append(html);
 		});
 
-		console.log($('.item').width())
 		imgHright();
 	})
 
