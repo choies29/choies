@@ -3,8 +3,6 @@
 // for Porfilo item json and size
 // ----------------------------------------------------------------------------!
 $(document).ready(function(){
-
-	console.log('응답좀,,?...')
 				
 	$.ajax({
 
@@ -13,8 +11,6 @@ $(document).ready(function(){
     	dataType: 'json'
 
 	}).done(function(json){
-
-	console.log('되나요?...')
 		
 		var html = "";
 
@@ -31,8 +27,6 @@ $(document).ready(function(){
 
 		imgHright();
 	})
-
-	console.log('힝...')
 
 });
 

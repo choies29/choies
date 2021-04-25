@@ -16,8 +16,7 @@ body{
 
 section{
 	width: 100%;
-	min-height: 900px;
-	padding-top: 10rem;
+	padding-top: 8rem;
 }
 
 @media (max-width: 1400px){
@@ -190,8 +189,8 @@ nav li{
 /* intro
 -------------------------------------------------------------------- */
 
-#intro .container{
-	height: 100vh;
+#intro{
+	min-height: 800px;
 }
 
 .side_text{
@@ -294,6 +293,7 @@ nav li{
 	font-size: 4rem;
 	font-weight: 700;
 	text-transform: uppercase;
+	margin-bottom: 1rem;
 }
 
 .info_txt{
@@ -343,7 +343,7 @@ nav li{
 -------------------------------------------------------------------- */
 #about{
 	overflow: hidden;
-	padding-bottom: 10rem;
+	padding-bottom: 5rem;
 	background: #f7f7f7;
 }
 
@@ -431,12 +431,11 @@ nav li{
 /* project
 -------------------------------------------------------------------- */
 #project{
-	padding-bottom: 4rem;
+	padding-bottom: 3rem;
 }
 
 .project_content{
 	overflow: hidden;
-	padding-top: 5rem;
 }
 
 .project_content .item{
@@ -453,8 +452,9 @@ nav li{
 	background: rgba(0,0,0,0.3);
 	text-align: center;
 	overflow: hidden;
-    transition: all 0.4s ease-out;
-    cursor: pointer;
+	transition: all 0.4s ease-out;
+	cursor: pointer;
+	border-radius: 0.3rem;
 }
 
 .project_content .item:hover .cover{
@@ -654,6 +654,7 @@ section#contact{
 -------------------------------------------------------------------- */
 footer{
 	width: 100%;
+	clear: both;
 	padding: 1.5rem 0 2rem;
 	font-size: 0.8rem;
 	color: #aaa;
