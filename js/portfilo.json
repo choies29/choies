@@ -1,264 +1,103 @@
 [
-	{
-		"id" : "18",
-		"project" : "계룡시 문화관광 제안시안",
-		"date" : "2021.03",
+   {
+		"id" : "30", 
+		"project" : "계룡시 문화관광 제안시안 01",
+		"category" : "Main",
+		"date" : "2021.02",
 		"url" : "",
 		"inDesign" : "100%",
 		"inPublishing " : "",
 		"info" : "계룡시 문화관광 제안시안입니다.",
 		"img" : [
-			"/img/project/item18-1.jpg",
-			"/img/project/item18-2.jpg"
-	 	]
+			"/img/project/item01-1.jpg"
+		]
     },
-	{
-		"id" : "17",
-		"project" : "목원대학교 통합예약서비스 구축",
+    {
+		"id" : "29",
+		"project" : "계룡시 문화관광 제안시안 02",
+		"category" : "Main",
 		"date" : "2021.02",
 		"url" : "",
 		"inDesign" : "100%",
 		"inPublishing " : "",
-		"info" : "신설된 목원대학교 통합예약서비스 메인입니다.",
+		"info" : "계룡시 문화관광 제안시안입니다.",
 		"img" : [
-			"/img/project/item17-1.jpg",
-			"/img/project/item17-2.jpg"
-		]
+			"/img/project/item02-1.jpg"
+      ]
     },
-	{
-		"id" : "16",
-		"project" : "유성구청 대표행정",
+    {
+		"id" : "28",
+		"project" : "유성구청 대표행정 시안",
+		"category" : "Main, Reactive",
 		"date" : "2021.01",
 		"url" : "",
 		"inDesign" : "100%",
 		"inPublishing " : "",
-		"info" : "5월 오픈예정인 유성구청 대표행정 메인과 미디어 시안입니다.",
+		"info" : "유성구청 대표행정 시안입니다.",
 		"img" : [
-			"/img/project/item16-1.jpg",
-			"/img/project/item16-2.jpg",
-			"/img/project/item16-3.jpg",
-			"/img/project/item16-4.jpg",
-			"/img/project/item16-5.jpg"
+			"/img/project/item03-1.jpg",
+			"/img/project/item03-2.jpg",
+			"/img/project/item03-3.jpg",
+			"/img/project/item03-4.jpg"
 		]
     },
-	{
-		"id" : "15",
-		"project" : "한국화학연구원 대표 홈페이지",
-		"date" : "2020.12",
+    {
+		"id" : "27",
+		"project" : "목원대학교 통합예약서비스 구축",
+		"category" : "Main, Reactive",
+		"date" : "2021.01",
 		"url" : "",
 		"inDesign" : "100%",
 		"inPublishing " : "",
-		"info" : "GDWEB에 선정된 한국화학연구원 대표메인, 서브레이아웃과 특화페이지입니다.",
+		"info" : "목원대학교 통합예약서비스 시안입니다.",
 		"img" : [
-			"/img/project/item15-1.jpg",
-			"/img/project/item15-2.jpg",
-			"/img/project/item15-3.jpg",
-			"/img/project/item15-4.jpg",
-			"/img/project/item15-5.jpg",
-			"/img/project/item15-6.jpg"
+			"/img/project/item04-1.jpg",
+			"/img/project/item04-2.jpg",
+			"/img/project/item04-3.jpg",
+			"/img/project/item04-4.jpg",
+			"/img/project/item04-5.jpg"
+		]
+    },
+    {
+		"id" : "26",
+		"project" : "한국화학연구원 대표 홈페이지 시안",
+		"category" : "Main, Sub",
+		"date" : "2021.01",
+		"url" : "",
+		"inDesign" : "100%",
+		"inPublishing " : "",
+		"info" : "한국화학연구원 대표 홈페이지 시안입니다.",
+		"img" : [
+			"/img/project/item05-1.jpg",
+			"/img/project/item05-2.jpg",
+			"/img/project/item05-3.jpg",
+			"/img/project/item05-4.jpg"
       ]
     },
-	{
-		"id" : "14",
-		"project" : "KED 빅데이터 상황실",
-		"date" : "2020.11",
+    {
+		"id" : "25",
+		"project" : "KED 빅데이터 상황실 시안",
+		"category" : "Main, Content",
+		"date" : "2021.01",
 		"url" : "",
 		"inDesign" : "100%",
 		"inPublishing " : "",
-		"info" : "솔루션 사업 KED 빅데이터 상황실의  메인과 서브 콘텐츠입니다.",
+		"info" : "KED 빅데이터 상황실 구축(한국기업데이터) 시안입니다.",
 		"img" : [
-			"/img/project/item14-1.jpg",
-			"/img/project/item14-2.jpg"
-		]
+			"/img/project/item06-1.jpg"
+      	]
     },
-	{
-		"id" : "13",
-		"project" : "홍성군 통합 홈페이지",
-		"date" : "2020.10",
+    {
+		"id" : "24",
+		"project" : "홍성",
+		"category" : "Main, Content",
+		"date" : "2021.01",
 		"url" : "",
 		"inDesign" : "100%",
 		"inPublishing " : "",
-		"info" : "홍성군의 특화페이지, 사업소 디자인 메인입니다.",
+		"info" : "KED 빅데이터 상황실 구축(한국기업데이터) 시안입니다.",
 		"img" : [
-			"/img/project/item13-1.jpg",
-			"/img/project/item13-2.jpg",
-			"/img/project/item13-3.jpg",
-			"/img/project/item13-4.jpg",
-			"/img/project/item13-5.jpg",
-			"/img/project/item13-6.jpg",
-			"/img/project/item13-7.jpg",
-			"/img/project/item13-8.jpg",
-			"/img/project/item13-9.jpg"
-		]
-    },
-	{
-		"id" : "12",
-		"project" : "한국교통대학교",
-		"date" : "2020.09",
-		"url" : "",
-		"inDesign" : "100%",
-		"inPublishing " : "",
-		"info" : "한국교통대학교의 산학협력단과 연합대학 메인입니다.",
-		"img" : [
-			"/img/project/item12-1.jpg",
-			"/img/project/item12-2.jpg",
-		]
-    },
-	{
-		"id" : "11",
-		"project" : "대전중구 문화관광",
-		"date" : "2020.08",
-		"url" : "",
-		"inDesign" : "100%",
-		"inPublishing " : "",
-		"info" : "GDWEB에 선정된 대전중구 문화관광 메인입니다.",
-		"img" : [
-			"/img/project/item11-1.jpg"
-		]
-    },
-	{
-		"id" : "10",
-		"project" : "한국해양교통안전공단",
-		"date" : "2021.07",
-		"url" : "",
-		"inDesign" : "100%",
-		"inPublishing " : "",
-		"info" : "포털 메인시안과 특화페이지입니다.",
-		"img" : [
-			"/img/project/item10-1.jpg",
-			"/img/project/item10-2.jpg",
-		]
-    },
-	{
-		"id" : "09",
-		"project" : "해양안전교육포털",
-		"date" : "2020.07",
-		"url" : "",
-		"inDesign" : "100%",
-		"inPublishing " : "",
-		"info" : "포털메인과 함께 제안하였던 시안입니다.",
-		"img" : [
-			"/img/project/item09-1.jpg",
-			"/img/project/item09-2.jpg"
-		]
-    },
-	{
-		"id" : "08",
-		"project" : "금산군수실",
-		"date" : "2020.05",
-		"url" : "",
-		"inDesign" : "100%",
-		"inPublishing " : "",
-		"info" : "금산군청 군수실메인입니다.",
-		"img" : [
-			"/img/project/item08-1.jpg"
-		]
-    },
-	{
-		"id" : "07",
-		"project" : "금산글로벌트레이드",
-		"date" : "2020.04",
-		"url" : "",
-		"inDesign" : "100%",
-		"inPublishing " : "",
-		"info" : "금산글로벌트레이드 메인입니다.",
-		"img" : [
-			"/img/project/item07-1.jpg",
-			"/img/project/item07-2.jpg"
-		]
-    },
-	{
-		"id" : "06",
-		"project" : "예산황새공원",
-		"date" : "2020.02",
-		"url" : "",
-		"inDesign" : "100%",
-		"inPublishing " : "",
-		"info" : "예산황새공원 메인입니다.",
-		"img" : [
-			"/img/project/item06-1.jpg",
-			"/img/project/item06-2.jpg"
-		]
-    },
-	{
-		"id" : "05",
-		"project" : "KIA eLead App",
-		"date" : "2018-9 총 3.5개월",
-		"url" : "https://xd.adobe.com/view/831efd99-1fee-499c-44b2-420980cd7b5c-f52f/",
-		"inDesign" : "100%",
-		"inPublishing " : "50%",
-		"info" : "Europe KIA Dealer들을 위한 Sales App을 리뉴얼하였습니다. 기획 (as is & to be, 제안서작성)부터 시작하여 Adobe XD를 이용한 Prototype 제작, 전반적인 디자인작업 후 전문 퍼블리셔 분과 함께 마크업 작업을 하였습니다. * 보안상 임의적인 텍스트로 대체한 Prototype만 올려놓았습니다.",
-		"img" : [
-			"/img/project/item05-1.jpg"
-		]
-	},
-	{
-		"id" : "04",
-		"project" : "Hyundai H-way",
-		"date" : "2019.02-04",
-		"url" : "",
-		"inDesign" : "100%",
-		"inPublishing " : "100%",
-		"info" : "총 3개월간 진행한 현대자동차 이탈리아 법인 관리시스템 리뉴얼 프로젝트입니다. Bootstrap을 기반으로 기존의 운영되고 있던 시스템을 고객관리부터 차량판매에 대한 프로세스를 재정비하여 모든 페이지들을 리뉴얼하였습니다. * 보안상 상세내용은 생략하겠습니다.",
-		"img" : [
-			"/img/project/item04-1.jpg"
-		]
-	},
-	{
-		"id" : "03",
-		"project" : "과학기술인재정책 플랫폼",
-		"date" : "2018",
-		"url" : "https://hrstpolicy.re.kr/kistep/kr/main.html",
-		"inDesign" : "100%",
-		"inPublishing " : "100%",
-		"info" : "전반적인 디자인과 퍼블리싱을 진행한 프로젝트로 메인이이미지와 제안시안입니다.",
-		"img" : [
-			"/img/project/item03-1.jpg"
-		]
-	},
-	{
-		"id" : "02",
-		"project" : "경기통계",
-		"date" : "2018",
-		"url" : "https://hrstpolicy.re.kr/kistep/kr/main.html",
-		"inDesign" : "50%",
-		"inPublishing " : "100%",
-		"info" : "DB조회, 통계보고서, 인포그래픽 등을 제공하는 사이트로 리뉴얼 작업에 참여하였습니다. 메인디자이너분의 시안을 기준으로 서브디자인과 전체 퍼블리싱 작업을 하였습니다.",
-		"img" : [
-			"/img/project/item02-1.jpg"
-		]
-	},
-	{
-		"id" : "01",
-		"project" : "한국산업기술평가관리원 제안관리시스템",
-		"date" : "2018",
-		"url" : "",
-		"inDesign" : "100%",
-		"inPublishing " : "100%",
-		"info" : "사내 직원들의 제안을 받고 검토하는 목적성에 맞춰 필요한 정보의 구성으로 디자인으로 잡고 퍼블리싱까지 맞친 프로젝트입니다.",
-		"img" : [
-			"/img/project/item01-1.jpg",
-			"/img/project/item01-2.jpg"
-		]
-	},
-	{
-		"id" : "00",
-		"project" : "인포그래픽작업물",
-		"date" : "2018",
-		"url" : "",
-		"inDesign" : "100%",
-		"inPublishing " : "100%",
-		"info" : "그동안 유지보수하였던 홈페이지의 인포그래픽 작업들입니다.",
-		"img" : [
-			"/img/info/01.jpg",
-			"/img/info/02.jpg",
-			"/img/info/03.jpg",
-			"/img/info/04.jpg",
-			"/img/info/05.jpg",
-			"/img/info/06.jpg",
-			"/img/info/07.jpg",
-			"/img/info/08.jpg",
-			"/img/info/09.jpg"
-		]
-	}
+			"/img/project/item06-1.jpg"
+      	]
+    }
 ]
