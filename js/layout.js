@@ -17,11 +17,10 @@ $(document).ready(function(){
 		$.each(json, function(idx, row) {
 			
 			html = $("#portfolioItem").html()
-			.replace(/{id}/gi, row.id[0])
+			.replace(/{id}/gi, row.id)
 			.replace(/{img}/gi, row.img[0])
 			.replace(/{project}/gi, row.project)
-			.replace(/{date}/gi, row.date)
-			.replace(/{category}/gi, row.category);
+			.replace(/{date}/gi, row.date);
 
 			$(".project_content").append(html);
 		});

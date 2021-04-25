@@ -476,17 +476,6 @@ nav li{
 	font-weight: 500;
 }
 
-.project_text .category{
-
-	padding: 0.2rem 1rem;
-	line-height: 1rem;
-	vertical-align: middle;
-	background: rgba(0,0,0,0.3);
-	color: #fff;
-	border-radius : 15px;
-	font-weight: 100;
-}
-
 .infographic{
 	overflow: hidden;
 	clear: both;
