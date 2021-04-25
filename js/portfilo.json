@@ -1,7 +1,7 @@
 [
    {
 		"id" : "18",
-		"project" : "계룡시 문화관광 제안시안 test",
+		"project" : "계룡시 문화관광 제안시안",
 		"date" : "2021.03",
 		"url" : "",
 		"inDesign" : "100%",
@@ -14,7 +14,7 @@
     },
     {
 		"id" : "17",
-		"project" : "목원대학교 통합예약서비스 구축 test",
+		"project" : "목원대학교 통합예약서비스 구축",
 		"date" : "2021.02",
 		"url" : "",
 		"inDesign" : "100%",
@@ -26,78 +26,82 @@
 		]
     },
     {
-		"id" : "28",
-		"project" : "유성구청 대표행정 시안",
-		"category" : "Main, Reactive",
+		"id" : "16",
+		"project" : "유성구청 대표행정",
 		"date" : "2021.01",
 		"url" : "",
 		"inDesign" : "100%",
 		"inPublishing " : "",
-		"info" : "유성구청 대표행정 시안입니다.",
+		"info" : "5월 오픈예정인 유성구청 대표행정 메인과 미디어 시안입니다.",
 		"img" : [
-			"/img/project/item03-1.jpg",
-			"/img/project/item03-2.jpg",
-			"/img/project/item03-3.jpg",
-			"/img/project/item03-4.jpg"
+			"/img/project/item16-1.jpg",
+			"/img/project/item16-2.jpg",
+			"/img/project/item16-3.jpg",
+			"/img/project/item16-4.jpg",
+			"/img/project/item16-5.jpg"
 		]
     },
     {
-		"id" : "27",
-		"project" : "목원대학교 통합예약서비스 구축",
-		"category" : "Main, Reactive",
-		"date" : "2021.01",
+		"id" : "15",
+		"project" : "한국화학연구원 대표 홈페이지",
+		"date" : "2020.12",
 		"url" : "",
 		"inDesign" : "100%",
 		"inPublishing " : "",
-		"info" : "목원대학교 통합예약서비스 시안입니다.",
+		"info" : "GDWEB에 선정된 한국화학연구원 대표메인, 서브레이아웃과 특화페이지입니다.",
 		"img" : [
-			"/img/project/item04-1.jpg",
-			"/img/project/item04-2.jpg",
-			"/img/project/item04-3.jpg",
-			"/img/project/item04-4.jpg",
-			"/img/project/item04-5.jpg"
-		]
-    },
-    {
-		"id" : "26",
-		"project" : "한국화학연구원 대표 홈페이지 시안",
-		"category" : "Main, Sub",
-		"date" : "2021.01",
-		"url" : "",
-		"inDesign" : "100%",
-		"inPublishing " : "",
-		"info" : "한국화학연구원 대표 홈페이지 시안입니다.",
-		"img" : [
-			"/img/project/item05-1.jpg",
-			"/img/project/item05-2.jpg",
-			"/img/project/item05-3.jpg",
-			"/img/project/item05-4.jpg"
+			"/img/project/item15-1.jpg",
+			"/img/project/item15-2.jpg",
+			"/img/project/item15-3.jpg",
+			"/img/project/item15-4.jpg",
+			"/img/project/item15-5.jpg",
+			"/img/project/item15-6.jpg"
       ]
     },
     {
-		"id" : "25",
-		"project" : "KED 빅데이터 상황실 시안",
-		"category" : "Main, Content",
-		"date" : "2021.01",
+		"id" : "14",
+		"project" : "KED 빅데이터 상황실",
+		"date" : "2020.11",
 		"url" : "",
 		"inDesign" : "100%",
 		"inPublishing " : "",
-		"info" : "KED 빅데이터 상황실 구축(한국기업데이터) 시안입니다.",
+		"info" : "솔루션 사업 KED 빅데이터 상황실의  메인과 서브 콘텐츠입니다.",
 		"img" : [
-			"/img/project/item06-1.jpg"
-      	]
+			"/img/project/item14-1.jpg",
+			"/img/project/item14-2.jpg"
+		]
     },
     {
-		"id" : "24",
-		"project" : "홍성",
-		"category" : "Main, Content",
-		"date" : "2021.01",
+		"id" : "13",
+		"project" : "홍성군 통합 홈페이지",
+		"date" : "2020.10",
 		"url" : "",
 		"inDesign" : "100%",
 		"inPublishing " : "",
-		"info" : "KED 빅데이터 상황실 구축(한국기업데이터) 시안입니다.",
+		"info" : "홍성군의 특화페이지, 사업소 디자인 메인입니다.",
 		"img" : [
-			"/img/project/item06-1.jpg"
-      	]
+			"/img/project/item13-1.jpg",
+			"/img/project/item13-2.jpg",
+			"/img/project/item13-3.jpg",
+			"/img/project/item13-4.jpg",
+			"/img/project/item13-5.jpg",
+			"/img/project/item13-6.jpg",
+			"/img/project/item13-7.jpg",
+			"/img/project/item13-8.jpg",
+			"/img/project/item13-9.jpg"
+		]
+    },
+    {
+		"id" : "12",
+		"project" : "한국교통대학교",
+		"date" : "2020.09",
+		"url" : "",
+		"inDesign" : "100%",
+		"inPublishing " : "",
+		"info" : "한국교통대학교의 산학협력단과 연합대학 메인입니다.",
+		"img" : [
+			"/img/project/item12-1.jpg",
+			"/img/project/item12-2.jpg"
+		]
     }
 ]
