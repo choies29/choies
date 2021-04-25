@@ -466,10 +466,10 @@ nav li{
 
 .project_content .item:hover .cover{
 	background: rgba(0,0,0,0.6);
-    transition: all 0.6s ease-out;
+    transition: all 0.5s ease-out;
 }
 
-.project_content .item:hover .cover::before{
+.project_content .item .cover::before{
 	content: "";
 	display: block;
 	position: absolute;
@@ -477,20 +477,19 @@ nav li{
 	right:0;
 	bottom:0;
 	left:0;
-	border: 2px solid #fff;
+	border: 1px solid #fff;
 	opacity: 0;
+    transition: all 0.5s ease-out;
 }
 
 
 .project_content .item:hover .cover::before{
-	content: "";
-	display: block;
-	position: absolute;
 	top:1rem;
 	right:1rem;
 	bottom:1rem;
 	left:1rem;
-	border: 2px solid #fff;
+	opacity: 1;
+    transition: all 0.5s ease-out;
 }
 
 
@@ -505,34 +504,37 @@ nav li{
 
 .project_text .date{
     display: block;
+    overflow: hidden;
+    height: 1.2rem;
+    padding-top: 1rem;
     letter-spacing: 0.05rem;
     color: #fff;
     font-family: 'Poppins';
-    transform: translateY(500%);
     opacity: 0;
-    transition: all 0.3s ease-out;
 }
 
 .project_text h2{
-    display: block;
+	display: block;
+	overflow: hidden;
+	height: 1.5rem;
+	margin-top: 0.5rem;
+	padding-top: 1.5rem;
 	font-size: 1.3rem;
-	padding: 0.5rem 0 1.5rem;
 	color: #fff;
-	font-weight: 500;
-    transform: translateY(100%);
-    opacity: 0;
-    transition: all 0.6s ease-out;
+	font-weight: 300;
+	transition: all 0.5s ease-out;
 }
 
-.project_content .item:hover .project_text .date,
+.project_content .item:hover .project_text .date{
+	padding-top: 0;
+    opacity: 0.8;
+    transition: all 0.5s ease-out;
+}
+
 .project_content .item:hover .project_text h2{
-    transform: translateY(0);
+	padding-top: 0;
     opacity: 1;
-    transition: all 0.3s ease-out;
-}
-
-.project_content .item:hover .project_text h2{
-	transition-delay: 0.4s;
+    transition: all 0.5s ease-out;
 }
 
 .infographic{
