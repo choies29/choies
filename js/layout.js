@@ -73,8 +73,6 @@ $(document).ready(function(){
 	index_ani();
 	portfolioHeight();
 
-	$('.project_content .item img').load(function () { portfolioHeight(); });
-
 });
 
 
