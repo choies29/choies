@@ -3,12 +3,14 @@
 // for Porfilo item json and size
 // ----------------------------------------------------------------------------!
 $(document).ready(function(){
+
+	console.log('응답좀,,?...')
 				
 	$.ajax({
 
-		url:"portfilo.json",
+		url:"js/portfilo.json",
     	type: 'GET',
-    	dataType: 'json',
+    	dataType: 'json'
 
 	}).done(function(json){
 
