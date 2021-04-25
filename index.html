@@ -150,49 +150,8 @@
 			</div>
 		</section>
 
-		<!-- part.4 career me start! -->
-		<section id="career">
-			<div class="container">
-				<div class="common_title">
-					<h3>yuchohee</h3>
-					<h1>about</h1>
-					<p><!-- 오늘보다 발전한 내일을 위해 준비하고 노력하며 꿈꿉니다.<br/> -->010-6465-0081</p>
-					<p>choies29@naver.com</p>
-				</div>
-				<div class="career f_left">
-					<h2>프리랜서</h2>
-					<ul>
-						<li><b>2014.10</b>(주)지산웨어 - 산림청 정보화업무관리시스텝[ ITGS ]</li>
-						<li><b>2014.11 - 2015.03</b>ICT SYSTEM - 홈페이지 , 어플리케이션</li>
-						<li><b>2015.12</b>(주)지산웨어 - 한국산업기술평가관리원 제안관리시스템 </li>
-						<li><b>2018.05</b>벨로스커뮤니티 - 삼송더샵아파트 사전홈페이지</li>
-						<li><b>2018.08</b>벨로스커뮤니티 - 속초서희스타힐스 사전홈페이지</li>
-						<li><b>2019.03 - 05</b>(주)신우인터내셔널아이티씨 - 현대자동차_H-Lead UI,UX Improvement </li>
-						<li><b>2018.11 - 12 & 2019.08 - 09</b>(주)신우인터내셔널아이티씨 - 기아자동차_KEM eLead Performance </li>
-					</ul>
-				</div>
-				<div class="career f_right">
-					<h2>정규직</h2>
-					<ul>
-						<li class="main"><b>2015.01 - 2018.04</b>(주)누림소프트 - 회사의 전반적인 프로젝트</li>
-						<li>- 2018년 경기통계시스템 유지보수용역</li>
-						<li>- 과학기술인력정책 종합정보시스템 개선 및 운영</li>
-						<li>- 2017년 성인지통계 시스템 유지 및 개선</li>
-						<li>- 2017년 경기통계시스템 유지보수용역</li>
-						<li>- 2017년 경기통계시스템 유지보수용역</li>
-						<li>- 2016년 통계정보시스템 운영 및 유지관리 용역</li>
-						<li>- 2015년 보건산업조사통계시스템 유지관리 용역</li>
-						<li>- 기술혁신조사 홈페이지 구축 용역</li>
-						<li>- 2015년 성 인지 통계정보 시스템 리뉴얼 및 유지관리</li>
-						<li>- 농식품통계관리시스템 구축사업</li>
-					</ul>
-				</div>
-			</div>
-		</section>
-		<!-- part.4 career end! -->
-
 		<footer>
-			Copyright 2019. 유초희. All rights reserved.
+			Copyright 2021. Joy or Chohee's Choies. All rights reserved.
 		</footer>
 	</div>
 
@@ -216,41 +175,4 @@
 		</div>
 	</script>
 
-	<script type="text/javascript">
-		
-		$(document).ready(function(){
-				
-			$.ajax({
-				url:"js/portfilo.json",
-            	type: 'GET',
-            	dataType: 'json',
-			}).done(function(json){
-
-				var html = "";
-
-				$.each(json, function(idx, row) {
-					
-					html = $("#portfolioItem").html()
-					.replace(/{img}/gi, row.img[0])
-					.replace(/{project}/gi, row.project)
-					.replace(/{date}/gi, row.date)
-					.replace(/{category}/gi, row.category);
-
-					$(".project_content").append(html);
-				});
-
-				console.log($('.item').width())
-				imgHright();
-        	})
-
-		});
-
-
-		function imgHright(){
-
-			$('.item').height($('.item').width()); 
-
-		}
-
-	</script>
 </body>

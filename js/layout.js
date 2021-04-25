@@ -1,4 +1,40 @@
-// choies' Script v_190913
+// choies' Script v_210425
+
+// for item json and size
+// ----------------------------------------------------------------------------!
+$(document).ready(function(){
+				
+	$.ajax({
+		url:"js/portfilo.json",
+    	type: 'GET',
+    	dataType: 'json',
+	}).done(function(json){
+
+		var html = "";
+
+		$.each(json, function(idx, row) {
+			
+			html = $("#portfolioItem").html()
+			.replace(/{img}/gi, row.img[0])
+			.replace(/{project}/gi, row.project)
+			.replace(/{date}/gi, row.date)
+			.replace(/{category}/gi, row.category);
+
+			$(".project_content").append(html);
+		});
+
+		console.log($('.item').width())
+		imgHright();
+	})
+
+});
+
+
+function imgHright(){
+
+	$('.item').height($('.item').width()); 
+
+}
 
 
 // Function Declarations
