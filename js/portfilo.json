@@ -1,29 +1,29 @@
 [
    {
-		"id" : "30", 
-		"project" : "계룡시 문화관광 제안시안 01",
-		"category" : "Main",
-		"date" : "2021.02",
+		"id" : "18",
+		"project" : "계룡시 문화관광 제안시안 test",
+		"date" : "2021.03",
 		"url" : "",
 		"inDesign" : "100%",
 		"inPublishing " : "",
 		"info" : "계룡시 문화관광 제안시안입니다.",
 		"img" : [
-			"/img/project/item01-1.jpg"
-		]
+			"/img/project/item18-1.jpg",
+			"/img/project/item18-2.jpg"
+	 	]
     },
     {
-		"id" : "29",
-		"project" : "계룡시 문화관광 제안시안 02",
-		"category" : "Main",
+		"id" : "17",
+		"project" : "목원대학교 통합예약서비스 구축 test",
 		"date" : "2021.02",
 		"url" : "",
 		"inDesign" : "100%",
 		"inPublishing " : "",
-		"info" : "계룡시 문화관광 제안시안입니다.",
+		"info" : "신설된 목원대학교 통합예약서비스 메인입니다.",
 		"img" : [
-			"/img/project/item02-1.jpg"
-      ]
+			"/img/project/item17-1.jpg",
+			"/img/project/item17-2.jpg"
+		]
     },
     {
 		"id" : "28",
