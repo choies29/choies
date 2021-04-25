@@ -12,6 +12,8 @@ $(document).ready(function(){
 
 	}).done(function(json){
 
+		console.log("Success!")
+
 		var html = "";
 
 		$.each(json, function(idx, row) {
