@@ -63,8 +63,11 @@ $(document).ready(function(){
 
 
 	//for modal
-	$('body').on('click', '.btn_modal', function(){
-	
+	$('body').on('click', '#portfolioItem .item', function(){
+		var modalImg = $(this).html();
+		$('.modal').fadeIn(500);
+		$('.modal_img').html(modalImg);
+		$('body').css('overflow','hidden');
 	});
 
 
