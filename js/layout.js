@@ -6,12 +6,14 @@ $(document).ready(function(){
 				
 	$.ajax({
 
-		url:"js/portfilo.json",
+		url:"portfilo.json",
     	type: 'GET',
     	dataType: 'json',
 
 	}).done(function(json){
 
+	console.log('되나요?...')
+		
 		var html = "";
 
 		$.each(json, function(idx, row) {
@@ -20,13 +22,15 @@ $(document).ready(function(){
 			.replace(/{id}/gi, row.id)
 			.replace(/{img}/gi, row.img[0])
 			.replace(/{project}/gi, row.project)
-			.replace(/{date}/gi, row.date)
+			.replace(/{date}/gi, row.date);
 
 			$(".project_content").append(html);
 		});
 
 		imgHright();
 	})
+
+	console.log('힝...')
 
 });
 
