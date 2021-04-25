@@ -14,6 +14,8 @@ $(document).ready(function(){
 		
 		var html = "";
 
+		$(".project_content").html('');
+
 		$.each(json, function(idx, row) {
 			
 			html = $("#portfolioItem").html()
