@@ -350,17 +350,14 @@ nav li{
 }
 
 .skill li i{
-	display: block;
-	font-size: 1.5rem;
-	opacity: 0.3;
+	display: inline-block;
+	font-size: 1.2rem;
+	opacity: 0.4;
+	line-height: 2rem;
+	vertical-align: middle;
 }
 
-.skill li h2{
-	padding: 0.5rem 0;
-	font-family: 'Poppins';
-	font-weight: 300;
-	font-size: 1.5rem;
-}
+.skill li h2{font-family: 'Poppins';font-weight: 300;font-size: 1rem;display: inline-block;color: #7b7b7b;line-height: 2rem;vertical-align: middle;}
 
 .skill li p{
 	padding-bottom: 3rem;
