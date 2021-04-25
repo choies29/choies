@@ -63,10 +63,11 @@ $(document).ready(function(){
 
 
 	//for modal
-	$('body').on('click', '#portfolioItem .item', function(){
-		var modalImg = $(this).html();
+	$('body').on('click', '.project_content .item', function(){
+		var data = $(this).html();
+
 		$('.modal').fadeIn(500);
-		$('.modal_img').html(modalImg);
+		$('.madal_contnet').html(data);
 		$('body').css('overflow','hidden');
 	});
 
