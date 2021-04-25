@@ -12,8 +12,6 @@ $(document).ready(function(){
 
 	}).done(function(json){
 
-		console.log("Success!")
-
 		var html = "";
 
 		$.each(json, function(idx, row) {
@@ -22,7 +20,7 @@ $(document).ready(function(){
 			.replace(/{id}/gi, row.id)
 			.replace(/{img}/gi, row.img[0])
 			.replace(/{project}/gi, row.project)
-			.replace(/{date}/gi, row.date);
+			.replace(/{date}/gi, row.date)
 
 			$(".project_content").append(html);
 		});

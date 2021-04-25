@@ -21,10 +21,10 @@ section{
 }
 
 @media (max-width: 1400px){
-	.col {
+	/*.col {
 		float: none;
 		width: 100% !important;
-	}
+	}*/
 }
 
 .container{
@@ -593,8 +593,8 @@ section#contact{
 	height: auto;
 }
 
-#contact button{
-	
+.btn_content{
+	padding:3rem 0;
 }
 
 
