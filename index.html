@@ -205,11 +205,8 @@
 	</div>
 
 	<script id="portfolioItem" type="text/template">
-	    <div class="item">
+	    <div class="item" style="background:url({img}) no-repeat">
 			<div class="cover">
-				<div class="project_img">
-					<img src="{img}" alt="{project} 시안이미지" />
-				</div>
 				<div class="project_text">
 					<div class="category">
 						<span>{date}</span>
@@ -243,9 +240,10 @@
 
 					$(".project_content").append(html);
 				});
+
+				imgHright();
         	})
 
-			imgHright();
 		});
 
 

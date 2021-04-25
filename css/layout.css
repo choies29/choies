@@ -16,8 +16,7 @@ body{
 
 section{
 	width: 100%;
-	min-width: 1200px;
-	min-height: 600px;
+	min-height: 900px;
 	padding-top: 10rem;
 }
 
@@ -291,13 +290,14 @@ nav li{
 }
 
 .info_txt{
-    font-size: 1.7em;
-    font-weight: 100;
+    font-size: 1.2em;
+    font-weight: 300;
     word-break: keep-all;
+    margin-top: 0.5rem;
 }
 
 .info_txt div{
-	height: 1.5em;
+	height: 1.6em;
 }
 
 /*@media all and ( max-width: 1023px ){
@@ -456,7 +456,7 @@ nav li{
 
 .project_img img{
 	display: block;
-	/* width: 100%; */
+	width: 100%;
 	height: 100%;
 	text-align: center;
 	opacity: 0.8;
