@@ -23,15 +23,11 @@ $(document).ready(function(){
 			.replace(/{project}/gi, row.project)
 			.replace(/{date}/gi, row.date)
 			.replace(/{url}/gi, row.url)
+			.replace(/{inDesign}/gi, row.inDesign)
 			.replace(/{inPublishing}/gi, row.inPublishing)
 			.replace(/{info}/gi, row.info)
 			.replace(/{img_0}/gi, row.img[0])
 			.replace(/{img}/gi, row.img);
-
-			let inD = json.inDesign
-			if ( inD.length > 0) {
-				.replace(/{inDesign}/gi, row.inDesign);
-			}
 
 			$(".project_content").append(html);
 		});
@@ -70,6 +66,8 @@ $(document).ready(function(){
 	index_ani();
 	portfolioHeight();
 
+	$('.project_content .item').load(function () { portfolioHeight(); });
+
 });
 
 
@@ -89,7 +87,7 @@ function visualPosition(){
 
 function portfolioHeight(){
 
-	$('.project_content .item').height($('.project_content .item').width()); 
+	$('.project_content .item').height($('.project_content .item').width());
 
 }
 

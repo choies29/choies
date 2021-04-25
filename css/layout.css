@@ -423,6 +423,7 @@ nav li{
 .project_content .item{
 	float: left;
 	width: 30%;
+	height: 25rem;
 	margin: 1.5%;
 	background-size: cover !important;
 	background-position: center top !important;
