@@ -59,6 +59,7 @@ $(document).ready(function(){
 	// for function
 	visualPosition();
 	index_ani();
+	portfolioHeight();
 
 });
 
@@ -79,13 +80,12 @@ function visualPosition(){
 
 function portfolioHeight(){
 
-	$('.project_content .item').height($('.item').width()); 
+	$('.project_content .item').height($('.project_content .item').width()); 
 
 }
 
 function index_ani(){
 
-	portfolioHeight();
 	scrollAni();
 
 	$(window).scroll( function(){ scrollAni(); });
