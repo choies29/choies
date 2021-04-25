@@ -29,11 +29,11 @@ $(document).ready(function(){
 			.replace(/{img_0}/gi, row.img[0])
 			//.replace(/{img}/gi, row.img);
 
-			let imgSu = row.img;
+			// let imgSu = row.img;
 			
-			for (let i=0; i<imgSu.length; i++){
-				$('.item .content').append('<img src="{img}">');
-			} 
+			// for (let i=0; i<imgSu.length; i++){
+			// 	$('.item .content').append('<img src="row.img">');
+			// } 
 
 
 			$(".project_content").append(html);
