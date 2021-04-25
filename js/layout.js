@@ -1,6 +1,6 @@
 // choies' Script v_210425
 
-// for Porfilo item json and size
+// for Porfilo item json
 // ----------------------------------------------------------------------------!
 $(document).ready(function(){
 				
@@ -27,7 +27,14 @@ $(document).ready(function(){
 			.replace(/{inPublishing}/gi, row.inPublishing)
 			.replace(/{info}/gi, row.info)
 			.replace(/{img_0}/gi, row.img[0])
-			.replace(/{img}/gi, row.img);
+			//.replace(/{img}/gi, row.img);
+
+			let imgSu = row.img;
+			
+			for (let i=0; i<imgSu.length; i++){
+				$('.item .content').append('<img src="{img}">');
+			} 
+
 
 			$(".project_content").append(html);
 		});
@@ -128,13 +135,19 @@ function index_ani(){
 function modalDetail(id){
 
 	console.log(id);
+
+	let detail = $(this).html();
+
 	$('.modal').fadeIn(300);
+	$('.modal').html(modalImg);
 	$('body').css("overflow","hidden");
+
 }
 
 function modalClose(){
 
 	$('.modal').fadeOut(300);
+	$('.modal').html('');
 	$('body').css("overflow","overlay");
 }
 
