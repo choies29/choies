@@ -20,6 +20,13 @@ section{
 	padding-top: 10rem;
 }
 
+@media (max-width: 1400px){
+	.col {
+		float: none;
+		width: 100% !important;
+	}
+}
+
 .container{
 	position: relative;
 	width: 100%;
@@ -577,6 +584,18 @@ nav li{
 
 }*/
 
+
+
+/* career
+-------------------------------------------------------------------- */
+
+section#contact{
+	height: auto;
+}
+
+#contact button{
+	
+}
 
 
 /* career
