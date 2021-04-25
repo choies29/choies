@@ -73,7 +73,7 @@ $(document).ready(function(){
 	index_ani();
 	portfolioHeight();
 
-	$('.project_content .item').load(function () { portfolioHeight(); });
+	$('.project_content .item img').load(function () { portfolioHeight(); });
 
 });
 
@@ -132,11 +132,11 @@ function index_ani(){
 	}
 }
 
-function modalDetail(id){
-
-	console.log(id);
+function modalDetail(){
 
 	let detail = $(this).html();
+
+	console.log(detail);
 
 	$('.modal').fadeIn(300);
 	$('.modal').html(modalImg);
