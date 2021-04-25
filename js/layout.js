@@ -20,9 +20,18 @@ $(document).ready(function(){
 			
 			html = $("#portfolioItem").html()
 			.replace(/{id}/gi, row.id)
-			.replace(/{img}/gi, row.img[0])
 			.replace(/{project}/gi, row.project)
-			.replace(/{date}/gi, row.date);
+			.replace(/{date}/gi, row.date)
+			.replace(/{url}/gi, row.url)
+			.replace(/{inPublishing}/gi, row.inPublishing)
+			.replace(/{info}/gi, row.info)
+			.replace(/{img_0}/gi, row.img[0])
+			.replace(/{img}/gi, row.img);
+
+			let inD = json.inDesign
+			if ( inD.length > 0) {
+				.replace(/{inDesign}/gi, row.inDesign);
+			}
 
 			$(".project_content").append(html);
 		});
@@ -119,6 +128,7 @@ function index_ani(){
 }
 
 function modalDetail(id){
+
 	console.log(id);
 	$('.modal').fadeIn(300);
 	$('body').css("overflow","hidden");

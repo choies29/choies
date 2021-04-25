@@ -154,7 +154,7 @@
 				</div>
 
 				<div class="project_content">
-					<div id="13" class="item"  onClick="modalDetail(13)">
+					<div id="13" class="item"  onClick="modalDetail(id)">
 						<div class="cover">
 							<div class="project_text">
 								<span class="date">{date}</span>
@@ -216,11 +216,17 @@
 
 	<!-- for portfolio item list -->
 	<script id="portfolioItem" type="text/template">
-		<div id="{id}" class="item"  onClick="modalDetail({id})" style="background:url({img}) no-repeat">
+		<div id="{id}" class="item"  onClick="modalDetail({id})" style="background:url({img_0}) no-repeat">
 			<div class="cover">
 				<div class="project_text">
 					<span class="date">{date}</span>
 					<h2>{project}</h2>
+					<div class="none">
+						<p class="inD"><span>디자인참여도</span>{inDesign}</p>
+						<p class="inP"><span>퍼블리싱참여도</span>{inPublishing}</p>
+						<p class="info">{info}</p>
+					</div>
+					<div class="content">{img}</div>
 				</div>
 			</div>
 		</div>
