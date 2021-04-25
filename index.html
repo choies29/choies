@@ -208,11 +208,9 @@
 	    <div class="item" style="background:url({img}) no-repeat">
 			<div class="cover">
 				<div class="project_text">
-					<div class="category">
-						<span>{date}</span>
-						<span>{type}</span>
-					</div>
+					<span class="date">{date}</span>
 					<h2>{project}</h2>
+					<span class="category">{category}</span>
 				</div>
 			</div>
 		</div>
@@ -236,7 +234,7 @@
 					.replace(/{img}/gi, row.img[0])
 					.replace(/{project}/gi, row.project)
 					.replace(/{date}/gi, row.date)
-					.replace(/{type}/gi, row.type);
+					.replace(/{category}/gi, row.category);
 
 					$(".project_content").append(html);
 				});

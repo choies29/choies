@@ -438,14 +438,15 @@ nav li{
 .project_content .item{
 	position: relative;
 	float: left;
-	width: 33.333%;
-	padding: 20px;
+	width: 30%;
+	margin: 1.5%;
+	background-size: cover !important;
 }
 
 .project_content .item .cover{
 	width: 100%;
 	height: 100%;
-	background: #000;
+	background: rgba(0,0,0,0.3);
 	text-align: center;
 	overflow: hidden;
 }
@@ -453,8 +454,7 @@ nav li{
 .project_text{position: absolute;top: 50%;left: 0;right: 0;transform: translate(0, -50%);}
 
 .project_text .category{
-	color: #fdbb07;
-	font-size: 0.75rem;
+	color: #fff;
 	font-weight: 100;
 	margin-top: 1rem;
 }
@@ -463,17 +463,16 @@ nav li{
 	display: inline-block;
 	line-height: 100%;
 	padding: 0 0.5rem;
-	border-left: 1px solid #ffe190;
 }
 
 .project_text .category span:first-child{
-	border: none !important;
-	padding-left: 0 !important;
 }
 
 .project_text h2{
 	font-size: 1.3rem;
 	padding: 0.5rem 0;
+	color: #fff;
+	font-weight: 500;
 }
 
 .project_text ul{

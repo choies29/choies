@@ -1,7 +1,9 @@
 [
     {
       "project" : "계룡시 문화관광 제안시안 01",
-      "type" : "web",
+      "category" : [
+      	"web"
+      ],
       "date" : "2021.02",
       "url" : "",
       "inDesign" : "100%",
@@ -15,7 +17,9 @@
     },
     {
       "project" : "계룡시 문화관광 제안시안 02",
-      "type" : "web",
+      "category" : [
+      	"web",
+      ],
       "date" : "2021.02",
       "url" : "",
       "inDesign" : "100%",
@@ -29,7 +33,9 @@
     },
     {
       "project" : "유성구청 대표행정 시안",
-      "type" : "web",
+      "category" : [
+      	"web",
+      ],
       "date" : "2021.01",
       "url" : "",
       "inDesign" : "100%",
@@ -44,7 +50,9 @@
     },
     {
       "project" : "목원대학교 통합예약서비스 구축",
-      "type" : "web",
+      "category" : [
+      	"web",
+      ],
       "date" : "2021.01",
       "url" : "",
       "inDesign" : "100%",
@@ -60,7 +68,9 @@
     },
     {
       "project" : "한국화학연구원 대표 홈페이지 시안",
-      "type" : "web",
+      "category" : [
+      	"web",
+      ],
       "date" : "2021.01",
       "url" : "",
       "inDesign" : "100%",
@@ -75,7 +85,9 @@
     },
     {
       "project" : "KED 빅데이터 상황실 시안",
-      "type" : "web",
+      "category" : [
+      	"solution",
+      ],
       "date" : "2021.01",
       "url" : "",
       "inDesign" : "100%",
