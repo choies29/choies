@@ -1,6 +1,5 @@
 [
 	{
-		"id" : "18",
 		"project" : "계룡시 문화관광 제안시안",
 		"date" : "2021.03",
 		"url" : "",
@@ -13,7 +12,6 @@
 	 	]
     },
 	{
-		"id" : "17",
 		"project" : "목원대학교 통합예약서비스 구축",
 		"date" : "2021.02",
 		"url" : "",
@@ -26,7 +24,6 @@
 		]
     },
 	{
-		"id" : "16",
 		"project" : "대전 유성구청 대표행정",
 		"date" : "2021.01",
 		"url" : "",
@@ -39,7 +36,6 @@
 		]
     },
 	{
-		"id" : "15",
 		"project" : "한국화학연구원 대표 홈페이지",
 		"date" : "2020.12",
 		"url" : "",
@@ -52,7 +48,6 @@
       ]
     },
 	{
-		"id" : "14",
 		"project" : "KED 빅데이터 상황실",
 		"date" : "2020.11",
 		"url" : "",
@@ -65,7 +60,6 @@
 		]
     },
 	{
-		"id" : "13",
 		"project" : "홍성군 통합 홈페이지",
 		"date" : "2020.10",
 		"url" : "",
@@ -78,20 +72,6 @@
 		]
     },
 	{
-		"id" : "12",
-		"project" : "한국교통대학교",
-		"date" : "2020.09",
-		"url" : "",
-		"inDesign" : "100%",
-		"inPublishing" : "",
-		"info" : "한국교통대학교의 산학협력단과 연합대학 메인입니다.",
-		"img" : [
-			"/img/project/item12-1.jpg",
-			"/img/project/item12-2.jpg"
-		]
-    },
-	{
-		"id" : "11",
 		"project" : "대전중구 문화관광",
 		"date" : "2020.08",
 		"url" : "",
@@ -99,11 +79,11 @@
 		"inPublishing" : "",
 		"info" : "GDWEB에 선정된 대전중구 문화관광 메인입니다.",
 		"img" : [
-			"/img/project/item11-1.jpg"
+			"/img/project/item11-1.jpg",
+			"/img/project/item11-2.jpg"
 		]
     },
 	{
-		"id" : "10",
 		"project" : "한국해양교통안전공단",
 		"date" : "2021.07",
 		"url" : "",
@@ -116,7 +96,6 @@
 		]
     },
 	{
-		"id" : "09",
 		"project" : "해양안전교육포털",
 		"date" : "2020.07",
 		"url" : "",
@@ -129,7 +108,6 @@
 		]
     },
 	{
-		"id" : "07",
 		"project" : "금산글로벌트레이드",
 		"date" : "2020.04",
 		"url" : "",
@@ -142,7 +120,18 @@
 		]
     },
 	{
-		"id" : "06",
+		"project" : "세종충남대병원",
+		"date" : "2020.03",
+		"url" : "",
+		"inDesign" : "100%",
+		"inPublishing" : "",
+		"info" : "",
+		"img" : [
+			"/img/project/item12-1.jpg",
+			"/img/project/item12-2.jpg"
+		]
+    },
+	{
 		"project" : "예산황새공원",
 		"date" : "2020.02",
 		"url" : "",
@@ -155,7 +144,6 @@
 		]
     },
 	{
-		"id" : "05",
 		"project" : "KIA eLead App",
 		"date" : "2018-9 총 3.5개월",
 		"url" : "https://xd.adobe.com/view/831efd99-1fee-499c-44b2-420980cd7b5c-f52f/",
@@ -167,7 +155,6 @@
 		]
 	},
 	{
-		"id" : "04",
 		"project" : "Hyundai H-way",
 		"date" : "2019.02-04",
 		"url" : "",
@@ -179,7 +166,6 @@
 		]
 	},
 	{
-		"id" : "03",
 		"project" : "과학기술인재정책 플랫폼",
 		"date" : "2018",
 		"url" : "https://hrstpolicy.re.kr/kistep/kr/main.html",
@@ -191,7 +177,6 @@
 		]
 	},
 	{
-		"id" : "02",
 		"project" : "경기통계",
 		"date" : "2017",
 		"url" : "https://hrstpolicy.re.kr/kistep/kr/main.html",
@@ -203,7 +188,6 @@
 		]
 	},
 	{
-		"id" : "01",
 		"project" : "한기평 제안관리시스템",
 		"date" : "2016",
 		"url" : "",
@@ -216,7 +200,6 @@
 		]
 	},
 	{
-		"id" : "00",
 		"project" : "인포그래픽작업물",
 		"date" : "2015-7",
 		"url" : "",

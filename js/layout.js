@@ -19,7 +19,6 @@ $(document).ready(function(){
 		$.each(json, function(idx, row) {
 			
 			html = $("#portfolioItem").html()
-			.replace(/{id}/gi, row.id)
 			.replace(/{project}/gi, row.project)
 			.replace(/{date}/gi, row.date)
 			.replace(/{url}/gi, row.url)
@@ -27,13 +26,7 @@ $(document).ready(function(){
 			.replace(/{inPublishing}/gi, row.inPublishing)
 			.replace(/{info}/gi, row.info)
 			.replace(/{img_0}/gi, row.img[0])
-			//.replace(/{img}/gi, row.img);
-
-			// let imgSu = row.img;
-			
-			// for (let i=0; i<imgSu.length; i++){
-			// 	$('.item .content').append('<img src="row.img">');
-			// } 
+			.replace(/{img_1}/gi, row.img)[1];
 
 
 			$(".project_content").append(html);
