@@ -27,7 +27,7 @@ $(document).ready(function(){
 			.replace(/{inPublishing}/gi, row.inPublishing)
 			.replace(/{info}/gi, row.info)
 			.replace(/{img_0}/gi, row.img[0])
-			.replace(/{img_1}/gi, row.img)[1];
+			.replace(/{img_1}/gi, row.img[1]);
 
 
 			$(".project_content").append(html);
