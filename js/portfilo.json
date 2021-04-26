@@ -6,7 +6,7 @@
 		"url" : "",
 		"inDesign" : "100%",
 		"inPublishing" : "",
-		"info" : "계룡시 문화관광 제안시안입니다.",
+		"info" : "계룡시 리뉴얼 제안을 위해 포탈 전면 홈페이지 제안작업을 하였습니다. BI컬러를 배합하여 새로운 컬러를 도출하여 메인컬러로 사용하였으며, 특화된 콘텐츠가 많아 그래픽적으로 강약 조절하여 정보의 깊이를 줄 수 있도록 진행하였습니다. ",
 		"img" : [
 			"/img/project/item18-1.jpg",
 			"/img/project/item18-2.jpg"
@@ -19,7 +19,7 @@
 		"url" : "",
 		"inDesign" : "100%",
 		"inPublishing" : "",
-		"info" : "신설된 목원대학교 통합예약서비스 메인입니다.",
+		"info" : "목원대학교의 다양한 프로그램과 공간,기자재대여를 위한 사이트 메인디자인입니다. 비주얼배너쪽을 팝업존으로 사용하고 싶지만, 이미지관리가 어려울 것 같다는 고객의 니즈에 맞춰 이미지와 텍스트배너를 같이 사용할 수 있도록 하였습니다.",
 		"img" : [
 			"/img/project/item17-1.jpg",
 			"/img/project/item17-2.jpg"
@@ -27,18 +27,15 @@
     },
 	{
 		"id" : "16",
-		"project" : "유성구청 대표행정",
+		"project" : "대전 유성구청 대표행정",
 		"date" : "2021.01",
 		"url" : "",
 		"inDesign" : "100%",
 		"inPublishing" : "",
-		"info" : "5월 오픈예정인 유성구청 대표행정 메인과 미디어 시안입니다.",
+		"info" : "대전 유성구의 전면 홈페이지 고도화 사업의 행정대표 디자인입니다. 대전을 상징하는 그래픽 요소들을 적재적소에 배치하여 유성구만의 느낌을 살렸으며, 최소한의 이미지사용으로 웹최적화에 맞는 디자인을 하였습니다.",
 		"img" : [
 			"/img/project/item16-1.jpg",
-			"/img/project/item16-2.jpg",
-			"/img/project/item16-3.jpg",
-			"/img/project/item16-4.jpg",
-			"/img/project/item16-5.jpg"
+			"/img/project/item16-2.jpg"
 		]
     },
 	{
@@ -48,14 +45,10 @@
 		"url" : "",
 		"inDesign" : "100%",
 		"inPublishing" : "",
-		"info" : "GDWEB에 선정된 한국화학연구원 대표메인, 서브레이아웃과 특화페이지입니다.",
+		"info" : "GDWEB에 선정된 한국화학연구원의 메인으로 풀페이지 레이아웃과 명확한 타이포, 3D 오브젝트등을 사용하여 한국화학연구원의 이미지를 제고시켰습니다.",
 		"img" : [
 			"/img/project/item15-1.jpg",
-			"/img/project/item15-2.jpg",
-			"/img/project/item15-3.jpg",
-			"/img/project/item15-4.jpg",
-			"/img/project/item15-5.jpg",
-			"/img/project/item15-6.jpg"
+			"/img/project/item15-2.jpg"
       ]
     },
 	{
@@ -81,14 +74,7 @@
 		"info" : "홍성군의 특화페이지, 사업소 디자인 메인입니다.",
 		"img" : [
 			"/img/project/item13-1.jpg",
-			"/img/project/item13-2.jpg",
-			"/img/project/item13-3.jpg",
-			"/img/project/item13-4.jpg",
-			"/img/project/item13-5.jpg",
-			"/img/project/item13-6.jpg",
-			"/img/project/item13-7.jpg",
-			"/img/project/item13-8.jpg",
-			"/img/project/item13-9.jpg"
+			"/img/project/item13-2.jpg"
 		]
     },
 	{
@@ -239,14 +225,7 @@
 		"info" : "그동안 유지보수하였던 홈페이지의 인포그래픽 작업들입니다.",
 		"img" : [
 			"/img/info/01.jpg",
-			"/img/info/02.jpg",
-			"/img/info/03.jpg",
-			"/img/info/04.jpg",
-			"/img/info/05.jpg",
-			"/img/info/06.jpg",
-			"/img/info/07.jpg",
-			"/img/info/08.jpg",
-			"/img/info/09.jpg"
+			"/img/info/02.jpg"
 		]
 	}
 ]
