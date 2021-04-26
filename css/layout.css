@@ -486,7 +486,7 @@ nav li{
 }
 
 
-.project_txt{
+.project_text{
 	position: absolute;
 	overflow: hidden;
 	top: 50%;
@@ -496,7 +496,7 @@ nav li{
 	z-index: 9999;
 }
 
-.project_txt .date{
+.project_text .date{
     display: block;
     overflow: hidden;
     height: 1.2rem;
@@ -508,7 +508,7 @@ nav li{
 	transition: all .4s ease-out;
 }
 
-.project_txt h2{
+.project_text h2{
 	display: block;
 	overflow: hidden;
 	height: 1.5rem;
@@ -524,13 +524,13 @@ nav li{
 	display: none;
 }
 
-.project_content .item:hover .project_txt .date{
+.project_content .item:hover .project_text .date{
 	padding-top: 0;
     opacity: 0.8;
     transition: all .4s ease-out;
 }
 
-.project_content .item:hover .project_txt h2{
+.project_content .item:hover .project_text h2{
 	padding-top: 0;
     opacity: 1;
     transition: all .4s ease-out;
@@ -812,7 +812,7 @@ padding-top: 5rem;
 		float: left;
 		width: 45%;
 	}
-	.col .project_txt{
+	.col .project_text{
 		float: left;
 		width: 55%;
 		padding: .5rem 0 0 3rem;
@@ -830,7 +830,7 @@ padding-top: 5rem;
 		width: 100%;
 		height: 35vh !important;
 	}
-	.col .project_txt{
+	.col .project_text{
 		float: none;
 		width: 100%;
 		padding: 1rem 0;
