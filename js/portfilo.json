@@ -151,7 +151,8 @@
 		"inPublishing" : "50%",
 		"info" : "Europe KIA Dealer들을 위한 Sales App을 리뉴얼하였습니다. 기획 (as is & to be, 제안서작성)부터 시작하여 Adobe XD를 이용한 Prototype 제작, 전반적인 디자인작업 후 전문 퍼블리셔 분과 함께 마크업 작업을 하였습니다. * 보안상 임의적인 텍스트로 대체한 Prototype만 올려놓았습니다.",
 		"img" : [
-			"/img/project/item05-1.jpg"
+			"/img/project/item05-1.jpg",
+			"/img/project/item05-2.jpg"
 		]
 	},
 	{
@@ -162,7 +163,8 @@
 		"inPublishing" : "100%",
 		"info" : "총 3개월간 진행한 현대자동차 이탈리아 법인 관리시스템 리뉴얼 프로젝트입니다. Bootstrap을 기반으로 기존의 운영되고 있던 시스템을 고객관리부터 차량판매에 대한 프로세스를 재정비하여 모든 페이지들을 리뉴얼하였습니다. * 보안상 상세내용은 생략하겠습니다.",
 		"img" : [
-			"/img/project/item04-1.jpg"
+			"/img/project/item04-1.jpg",
+			"/img/project/item04-2.jpg"
 		]
 	},
 	{
@@ -173,7 +175,8 @@
 		"inPublishing" : "100%",
 		"info" : "전반적인 디자인과 퍼블리싱을 진행한 프로젝트로 메인이이미지와 제안시안입니다.",
 		"img" : [
-			"/img/project/item03-1.jpg"
+			"/img/project/item03-1.jpg",
+			"/img/project/item03-2.jpg"
 		]
 	},
 	{
@@ -184,7 +187,8 @@
 		"inPublishing" : "100%",
 		"info" : "DB조회, 통계보고서, 인포그래픽 등을 제공하는 사이트로 리뉴얼 작업에 참여하였습니다. 메인디자이너분의 시안을 기준으로 서브디자인과 전체 퍼블리싱 작업을 하였습니다.",
 		"img" : [
-			"/img/project/item02-1.jpg"
+			"/img/project/item02-1.jpg",
+			"/img/project/item02-2.jpg"
 		]
 	},
 	{
@@ -207,8 +211,8 @@
 		"inPublishing" : "100%",
 		"info" : "그동안 유지보수하였던 홈페이지의 인포그래픽 작업들입니다.",
 		"img" : [
-			"/img/info/01.jpg",
-			"/img/info/02.jpg"
+			"/img/project/item00-1.jpg",
+			"/img/project/item00-2.jpg"
 		]
 	}
 ]

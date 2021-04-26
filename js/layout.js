@@ -12,6 +12,7 @@ $(document).ready(function(){
 
 	}).done(function(json){
 		
+		console.log('getJson!')
 		var html = "";
 
 		$(".project_content").html('');
